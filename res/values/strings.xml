@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">MapMap</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="hello_world">¡Hola mundo!</string>
+</resources>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_home"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/UnitIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textColor="#EDF5E1"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/UserNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/UnitIdText"
+        android:layout_alignRight="@+id/UnitIdText"
+        android:text=""
+        android:textColor="#EDF5E1" />
+
+    <ImageButton
+        android:id="@+id/UploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ReviewButton"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/btn_enviar" />
+
+    <ImageButton
+        android:id="@+id/ReviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/UploadButton"
+        android:layout_alignLeft="@+id/WandButton"
+        android:layout_marginBottom="27dp"
+        android:background="@null"
+        android:src="@drawable/btn_recorridos" />
+
+    <ImageButton
+        android:id="@+id/WandButton"
+        style="@style/styleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ReviewButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/btn_trazar" />
+
+</RelativeLayout>

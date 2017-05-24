@@ -16,7 +16,7 @@ Fue utilizada durante los ejercicios de mapeo realizados en **Mapatón Ciudadano
 [![](https://mapaton.org/images/logo-readme.png)](https://mapaton.org)
 
 ## ¿Cómo se utiliza?
-El equipo de Codeando Xalapaa creó un manuel de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
+El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
 [https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
 
 ## Tecnología
@@ -39,7 +39,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * http://www.theserverside.com/tutorial/Step-by-step-guide-to-Android-development-with-Eclipse
 5. Importar proyecto Android a IDE Eclipse
   * http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/
-6. Crear ADV (Android Developer Device)
+6. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
 

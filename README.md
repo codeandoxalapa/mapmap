@@ -3,11 +3,12 @@
 ---
 Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público de una ciudad, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>. 
 
-<strong>MapMap</strong> permite crear trazos georeferenciados sin la necesidad de consumir datos del dispositivo móvil, la infomrmación que se recolecta a través de la aplicación es la siguiente:
-- Conteo de pasajeros
-- Puntos que marcan las paradas del transporte público
-- Línea de trazo que identifica una ruta
-- Tiempo inicial y final del recorrido
+<strong>MapMap</strong> permite crear trazos georeferenciados sin la necesidad de consumir datos del dispositivo móvil, la información que se recolecta a través de la aplicación es la siguiente:
+- Conteo de pasajeros (subida y bajada de usuarios en las paradas).
+- Puntos que marcan las paradas por donde se detiene el transporte público.
+- Línea de trazo que identifica una ruta.
+- Tiempo inicial y final del recorrido.
+- Fotografía del transporte público que realiza la ruta.
 
 La aplicación puede ser utilizada para realizar cualquier tipo de trazo/recorrido siempre y cuando se utilicen en dispositivos con sistema operativo Android. El equipo de Codeando Xalapa agradece cualquier comentario, observación o sugerencia con respecto a la información contenida en esta aplicación y sus funcionalidades.
 

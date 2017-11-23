@@ -67,7 +67,7 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 
 **Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.**
 
-> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo esté <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
+> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo este <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
 
 ### ¿Cómo se utiliza?
 ---
@@ -82,16 +82,21 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ### Metodología propuesta de trabajo
 ---
 
-### Resultados
----
-Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br><br>
-Shapefiles - https://www.mapaton.org/resultados <br>
-Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data <br>
-<br><br>
-o bien, un resultado visual: 
-<img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
-### Contribuyentes:
+### Análisis de calidad
+---
+De acuerdo al sistema de evaluación de software definido en la guía de ciclo de vida de desarrollo de software, el análisis de esta herramienta ha generado la siguiente evaluación:
+
+Blocker issues: 
+Duplicated lines: 
+Critical issues: 
+Technical debt: 
+Test coverage:
+
+Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
+
+
+### Autores:
 ---
 [![](https://mapaton.org/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa) Codeando Xalapa
 * Rolando Drouaillet Pumarino
@@ -100,9 +105,14 @@ o bien, un resultado visual:
 * Elías Martín Sánchez Jímenez
 
 
-### Agradecimiento:
+### Información adicional
 ---
-Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalapa por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir MapMap.
+Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br><br>
+Shapefiles - https://www.mapaton.org/resultados <br>
+Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data <br>
+<br><br>
+o bien, un resultado visual: 
+<img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
 
 ### Licencia
@@ -110,5 +120,9 @@ Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalap
 Licencia MIT <br>
 Copyright (c) 2017 Codeando Xalapa
 
+
+### Agradecimiento:
+---
+Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalapa por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir MapMap.
 
 #### <i>Happy Coding!</i>

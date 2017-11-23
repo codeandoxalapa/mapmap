@@ -1,6 +1,6 @@
 # MapMap
 <p align="center">
-  <img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" heingt="100px" title="MapMap"/>
+  <img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" height="100px" title="MapMap"/>
 </p>
 
 ## ¿Qué es?

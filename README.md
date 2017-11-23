@@ -78,9 +78,30 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ### Metodología
 ---
 <strong>MapMap</strong> fue utilizada en el ejercicio del Mapatón Ciudadano, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en cualquier ciudad la cual se divide en 3 apartados:<br><br>
-1.- Previo al Trazado<br>
-2.- Durante el Trazado<br>
-3.- Posterior al Trazado<br>
+<strong>1.- Previo al Trazado</strong><br>
+- Tener identificado brigadistas (personas que harán el trazado).
+- Tener un primer acercamiento con checadores y choferes, desde los puntos más importantes que concentran rutas.
+- Identificar los puntos de inicio y fin.
+- Mapear las rutas en papel (fieldpapers.org), en la medida de lo posible (será un punto de referencia y de validación del trazado de rutas).
+- Verificar si en los periodos de tiempo en lo que se quiere realizar el trazado se van a presentar eventos extraordinarios como: eventos deportivos, sociales, políticos, dias festivos entre otros.
+- Identificar las zonas geográficas.
+- Organizar brigadas de voluntarios por zonas y rutas.
+- Asignar líderes a la brigadas de voluntarios.
+- Probar <strong>MapMap</strong> en una ruta seleccionada antes de iniciar el proceso.
+- Capacitar a las brigadas de voluntarios (ver manual de usuario).
+- Identificar horarios y días en los que hay disponibilidad el servicio de transporte público.
+<strong>2.- Durante el Trazado</strong><br>
+- Organizar las brigadas de voluntarios por parejas.
+- Cubrir todas las rutas.
+- Realizar y repetir el trazado de ruta.
+- Los líderes de brigadas deben estar en contacto con sus brigadas de voluntarios a cargo durante el proceso de trazado para llevar el control y progreso del trazado.
+- Reportar el progreso del trazado por parte de los brigadistas voluntarios a los líderes de brigada.
+<strong>3.- Posterior al Trazado</strong><br>
+- Recopilar la información resultado del trazado en el repositorio.
+- Las brigadas de voluntarios deben informar a sus líderes que concluyeron el proceso de trazado y si la información ya fue enviada al repositorio.
+- Los líderes deben llevar un registro de la zonas y rutas a su cargo que han sido trazadas por completo, aún están en proceso de trazado o incluso no han sido trazadas aún.
+- La información deben ser verificada y contrastada con la cartografía de la zona geográfica que fue trazada.
+
 <br>
 > Existe una versión extendida de la metodología la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 

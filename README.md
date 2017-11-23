@@ -26,12 +26,6 @@ En la ciudad de Xalapa llevamos a cabo el ejercicio del <a href="https://mapaton
 > MapMap está diseñada para el mapeo de rutas de transporte público de la ciudad de Xalapa, pero puede ser ajustada, implementada y reutilizada para el trazado de rutas de transporte o cualquier otro tipo de trazado y en cualquier ciudad.
 
 
-### ¿Cómo se utiliza?
----
-El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
-[https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
-
-
 ### Tecnología
 ---
 * Java 1.6 en adelante - [Descargar](http://www.oracle.com/technetwork/es/java/javase/downloads/index.html)
@@ -75,6 +69,22 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 
 > <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo esté <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
 
+### ¿Cómo se utiliza?
+---
+El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
+[https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
+
+
+### Manejo de datos
+---
+
+
+### Metodología propuesta de trabajo
+---
+
+### Ejemplo de una ruta trazada
+---
+<iframe src="https://github.com/XalapaCode/xalapa_bus_data/blob/master/data/001/route/route.geojson"></iframe>
 
 ### Contribuyentes:
 ---

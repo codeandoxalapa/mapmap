@@ -111,7 +111,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
    * Instalar servidor propio
 2) Proceso de limpieza de datos.
    * Descargar datos
-   * Convertir ShapeFiles a GEOJSON https://github.com/XalapaCode/xalapa_bus_data
+   * Usar (https://github.com/XalapaCode/xalapa_bus_data) para convertir ShapeFiles a GEOJSON 
    * Publicación en datos abiertos
 
 ### Análisis de calidad

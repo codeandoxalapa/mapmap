@@ -157,7 +157,19 @@ Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap
 o bien, un resultado visual: 
 <img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
+<div itemprop="text" class="blob-wrapper data type-json">
+      
+  <div class="render-wrapper">
+    <div class="render-container js-render-target  is-render-automatic is-render-requested is-render-ready" data-identity="7b97a3ae-6ea4-49a9-96d7-d9ea98a3c24e" data-host="https://render.githubusercontent.com" data-type="geojson">
+      <img alt="" class="octospinner" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64">
+      <div class="render-viewer-error">Sorry, something went wrong. <a href="https://github.com/XalapaCode/xalapa_bus_data/blob/master/data/001/route/route.geojson">Reload?</a></div>
+      <div class="render-viewer-fatal">Sorry, we cannot display this file.</div>
+      <div class="render-viewer-invalid">Sorry, this file is invalid so it cannot be displayed.</div>
+      <iframe class="render-viewer" src="https://render.githubusercontent.com/view/geojson?commit=8c0aa57079b5b4e4e027775b9fb5d516aec5cfc5&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f58616c617061436f64652f78616c6170615f6275735f646174612f386330616135373037396235623465346530323737373562396662356435313661656335636663352f646174612f3030312f726f7574652f726f7574652e67656f6a736f6e&amp;nwo=XalapaCode%2Fxalapa_bus_data&amp;path=data%2F001%2Froute%2Froute.geojson&amp;repository_id=89182323&amp;repository_type=Repository#7b97a3ae-6ea4-49a9-96d7-d9ea98a3c24e" sandbox="allow-scripts allow-same-origin allow-top-navigation">Viewer requires iframe.</iframe>
+    </div>
+  </div>
 
+  </div>
 ### Licencia
 ---
 Licencia MIT <br>

@@ -1,5 +1,7 @@
 # MapMap
-[![](https://mapaton.org/images/app-mapmap-readme.png)](https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es)
+<p align="center">
+  <img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" heingt="100px" title="MapMap"/>
+</p>
 
 ## ¿Qué es?
 Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato GTFS

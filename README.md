@@ -84,7 +84,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Resultados
 ---
-Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br>
+Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br><br>
 Shapefiles - https://www.mapaton.org/resultados <br>
 Geojson - https://github.com/codeandoxalapa/mapmap/data <br>
 <br><br>

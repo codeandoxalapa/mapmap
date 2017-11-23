@@ -1,13 +1,13 @@
 # MapMap
-Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>.
+Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público de una ciudad, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>.
 
 ## Problemática
-En un gran porcentaje de las ciudades latinoamericanas el transporte público se brinda a través de concesiones para el sector privado, esto implica que no se conoce el número de concesiones que transitan por las ciudades, ni los itinerarios así como las rutas por donde circulan los camiones. El no conocer las rutas genera un serio problema para la movilidad de las personas y la administración pública al no lograr gestionar adecuadamente el transporte público de una ciudad.
+En un gran porcentaje de las ciudades latinoamericanas el transporte público se brinda a través de concesiones por medio del sector privado, esto implica un desconocimiento del número de concesiones que transitan por las ciudades, los itinerarios son irregulares así como las rutas por donde circulan los camiones. El no conocer las rutas genera un serio problema para la movilidad de las personas y la administración pública al no lograr gestionar adecuadamente el transporte público de una ciudad.
 
-## Descripción
+## Contexto
 En el 2016 en la ciudad de Xalapa llevamos a cabo el ejercicio del Mapatón Ciudadano con la colaboración de la sociedad civil (Codeando Xalapa), 400 personas participantes, gobierno municipal y asociaciones como Open Street Map, WRI, entre otras. 
 
-Este ejercicio consistió en el uso de tecnologías de posicionamiento geográfico (GPS) y el uso de <strong>MapMap</strong> para la recolección de datos que permitieron crear feeds de las rutas de transporte público liberando esta información en formato abierto (GTFS, JSON, GIS, Shapefiles y GeoJSON) permitiendo ser utilizados por sistemas de navegación y buscando que el uso de los datos liberados permitan mejorar la movilidad de una ciudad.
+Este ejercicio consistió en el uso de tecnologías de posicionamiento geográfico (GPS) a través del uso de <strong>MapMap</strong> para la recolección de datos que permitieron crear feeds de las rutas de transporte público liberando esta información en formato abierto (GTFS, JSON, GIS, Shapefiles y GeoJSON) permitiendo ser utilizados por sistemas de navegación y buscando que el uso de los datos liberados permitan mejorar la movilidad de una ciudad.
 
 ## ¿En dónde puedo encontrarla?
 MapMap se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android.

@@ -106,9 +106,13 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Manejo de datos
 ---
-1) Escenario actual, servidor TransitWand.
-2) Instalar su porpio servidor.
-3) Proceso de limpieza de datos.
+1) Escoger servidor de almacenamiento:
+   * TransitWand
+   * Instalar servidor propio
+2) Proceso de limpieza de datos.
+   * Descargar datos
+   * Convertir ShapeFiles a GEOJSON (https://github.com/XalapaCode/xalapa_bus_data)
+   * Publicación en datos abiertos
 
 ### Análisis de calidad
 ---

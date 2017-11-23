@@ -82,7 +82,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 1.- Previo al Trazado
 2.- Durante el Trazado
 3.- Posterior al Trazado ### Manejo de datos
----
+<br>
 Para mayor información visitar <a href="https://mapaton.org">mapaton.org</a>
 
 ### Análisis de calidad

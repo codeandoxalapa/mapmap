@@ -82,7 +82,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 2.- Durante el Trazado<br>
 3.- Posterior al Trazado<br>
 <br>
-Para mayor información visitar <a href="https://mapaton.org">mapaton.org</a>
+> Existe una versión extendida de la metodología la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 
 
 ### Manejo de datos

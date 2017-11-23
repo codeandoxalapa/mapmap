@@ -82,8 +82,13 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ### Metodología propuesta de trabajo
 ---
 
-### Ejemplo de una ruta trazada
+### Resultados
 ---
+Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:
+Shapefiles - https://www.mapaton.org/resultados
+Geojson - https://github.com/codeandoxalapa/mapmap/data
+<br>
+ó bien: 
 <img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
 ### Contribuyentes:

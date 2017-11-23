@@ -37,7 +37,7 @@ En la ciudad de Xalapa llevamos a cabo el ejercicio del <a href="https://mapaton
 ### Ambiente de desarrollo
 ---
 Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes hacer el preparar tu ambiente de desarrollo para poder realiar pruebas, detectar posibles errores e incluso proponer mejoras.
-
+```
 1. Instalar Java 1.6 en adelante y agregar variables de entorno
   * https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
 2. Instalar Android SDK
@@ -52,7 +52,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 6. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
-
+```
 _**En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**_
 
 

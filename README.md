@@ -156,6 +156,7 @@ Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap
 <br><br>
 o bien, un resultado visual: 
 <img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
+<iframe src='https://google.com'></iframe>
 
 
 ### Licencia

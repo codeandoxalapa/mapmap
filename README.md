@@ -5,19 +5,15 @@ Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Tr
 En un gran porcentaje de las ciudades latinoamericanas el transporte público se brinda a través de concesiones por medio del sector privado, esto implica un desconocimiento del número de concesiones que transitan por las ciudades, los itinerarios son irregulares así como las rutas por donde circulan los camiones. El no conocer las rutas genera un serio problema para la movilidad de las personas y la administración pública al no lograr gestionar adecuadamente el transporte público de una ciudad.
 
 ## Contexto
-En el 2016 en la ciudad de Xalapa llevamos a cabo el ejercicio del Mapatón Ciudadano con la colaboración de la sociedad civil (Codeando Xalapa), 400 personas participantes, gobierno municipal y asociaciones como Open Street Map, WRI, entre otras. 
+En la ciudad de Xalapa llevamos a cabo el ejercicio del <a href="https://mapaton.org" target="_blank">Mapatón Ciudadano</a> con la colaboración de la sociedad civil (Codeando Xalapa), 400 personas participantes, gobierno municipal y asociaciones como Open Street Map, WRI, entre otras. 
 
-Este ejercicio consistió en el uso de tecnologías de posicionamiento geográfico (GPS) a través del uso de <strong>MapMap</strong> para la recolección de datos que permitieron crear feeds de las rutas de transporte público liberando esta información en formato abierto (GTFS, JSON, GIS, Shapefiles y GeoJSON) permitiendo ser utilizados por sistemas de navegación y buscando que el uso de los datos liberados permitan mejorar la movilidad de una ciudad.
+Este ejercicio consistió en el uso de tecnologías de posicionamiento geográfico (GPS) a través del uso de <strong>MapMap</strong> para la recolección de datos que permitieron crear feeds de las rutas de transporte público liberando esta información en formato abierto (GTFS, JSON, GIS, Shapefiles y GeoJSON) permitiendo ser utilizados por sistemas de navegación y buscando que el uso de los datos liberados permitan mejorar la movilidad de una ciudad. 
 
 ## ¿En dónde puedo encontrarla?
-MapMap se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android.
+<strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android.
 [![](https://mapaton.org/images/google-play-store-readme.png)](https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es)
 
 [https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es](https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es)
-
-## ¿En dónde ha sido utilizada?
-Fue utilizada durante los ejercicios de mapeo realizados en **Mapatón Ciudadano de Xalapa** [https://mapaton.org](https://mapaton.org) 
-[![](https://mapaton.org/images/logo-readme.png)](https://mapaton.org)
 
 ## ¿Cómo se utiliza?
 El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF

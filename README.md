@@ -84,7 +84,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Ejemplo de una ruta trazada
 ---
-<iframe src="https://github.com/XalapaCode/xalapa_bus_data/blob/master/data/001/route/route.geojson"></iframe>
+<img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
 ### Contribuyentes:
 ---

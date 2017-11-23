@@ -66,24 +66,19 @@ _**En caso de tener un dispositivo móvil físico no es necesario realizar el pa
 ### Contribuyentes:
 ---
 [![](https://mapaton.org/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa) Codeando Xalapa
+* Rolando Drouaillet Pumarino
+* Juan Manuel Becerril del Toro
+* Elizabeth Montenegro Ñeco
+* Elías Martín Sánchez Jímenez
 
 ### Agradecimiento:
 ---
-Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalapa por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir MapMap
+Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalapa por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir MapMap.
 
 ### Licencia
 ---
 The MIT License (MIT)
 Copyright (c) 2017 Codeando Xalapa
 
-### Autores
----
-Codeando Xalapa:
-* Rolando Drouaillet Pumarino
-* Juan Manuel Becerril del Toro
-* Elizabeth Montenegro Ñeco
-* Elías Martín Sánchez Jímenez
-
-Agradecimiento especial al equipo de XalapaJS.
 
 #### <i>Happy Coding!</i>

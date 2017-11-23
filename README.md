@@ -40,8 +40,11 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 ```
 1. Instalar Java 1.6 en adelante y agregar variables de entorno
   * https://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/
+```
+```
 2. Instalar Android SDK
   * http://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial
+```
 3. Instar IDE Eclipse (Android Developer)
   * http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-incubating-components/neon3
 4. Agregar plugin de Android a IDE Eclipse
@@ -52,7 +55,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 6. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
-```
+
 > **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**
 
 

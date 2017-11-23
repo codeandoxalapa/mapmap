@@ -45,17 +45,24 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 2. Instalar Android SDK
   * http://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial
 ```
+```
 3. Instar IDE Eclipse (Android Developer)
   * http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-incubating-components/neon3
+```
+```
 4. Agregar plugin de Android a IDE Eclipse
   * https://stuff.mit.edu/afs/sipb/project/android/docs/sdk/installing/installing-adt.html
   * http://www.theserverside.com/tutorial/Step-by-step-guide-to-Android-development-with-Eclipse
+```
+```
 5. Importar proyecto Android a IDE Eclipse
   * http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/
+```
+```
 6. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
-
+```
 > **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**
 
 

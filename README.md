@@ -79,17 +79,17 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ---
 <strong>MapMap</strong> fue utilizada en el ejercicio del Mapatón Ciudadano, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en cualquier ciudad la cual se divide en 3 apartados:<br><br>
 1. Previo al Trazado
-        * Tener identificado brigadistas (personas que harán el trazado).
-        * Tener un primer acercamiento con checadores y choferes, desde los puntos más importantes que concentran rutas.
-        * Identificar los puntos de inicio y fin.
-        * Mapear las rutas en papel (fieldpapers.org), en la medida de lo posible (será un punto de referencia y de validación del trazado de rutas).
-        * Verificar si en los periodos de tiempo en lo que se quiere realizar el trazado se van a presentar eventos extraordinarios como: eventos deportivos, sociales, políticos, dias festivos entre otros.
-        * Identificar las zonas geográficas.
-        * Organizar brigadas de voluntarios por zonas y rutas.
-        * Asignar líderes a la brigadas de voluntarios.
-        * Probar MapMap en una ruta seleccionada antes de iniciar el proceso.
-        * Capacitar a las brigadas de voluntarios (ver manual de usuario).
-        * Identificar horarios y días en los que hay disponibilidad el servicio de transporte público.
+ 1.1 Tener identificado brigadistas (personas que harán el trazado).
+ 1.2 Tener un primer acercamiento con checadores y choferes, desde los puntos más importantes que concentran rutas.
+ 1.3 Identificar los puntos de inicio y fin.
+ 1.4 Mapear las rutas en papel (fieldpapers.org), en la medida de lo posible.
+ 1.5 Verificar si en los periodos de tiempo en lo que se quiere realizar el trazado se van a presentar eventos extraordinarios.
+ 1.6 Identificar las zonas geográficas.
+ 1.7 Organizar brigadas de voluntarios por zonas y rutas.
+ 1.8 Asignar líderes a la brigadas de voluntarios.
+ 1.9 Probar MapMap en una ruta seleccionada antes de iniciar el proceso.
+ 1.10 Capacitar a las brigadas de voluntarios (ver manual de usuario).
+ 1.11 dentificar horarios y días en los que hay disponibilidad el servicio de transporte público.
 2. Durante el Trazado
         * Organizar las brigadas de voluntarios por parejas.
         * Cubrir todas las rutas.

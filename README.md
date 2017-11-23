@@ -1,8 +1,6 @@
+<img src="https://mapaton.org/images/app-mapmap-readme.png" align="right" width="50%" />
 # MapMap
 Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>.
-<p align="center">
-  <a href="https://mapaton.org" target="_blank"><img src="https://mapaton.org/images/app-mapmap-readme.png" aling="right" width="100%" title="MapMap"/></a>
-</p>
 
 ## Problemática
 En un gran porcentaje de las ciudades latinoamericanas el transporte público se brinda a través de concesiones para el sector privado, esto implica que no se conoce el número de concesiones que transitan por las ciudades, ni los itinerarios así como las rutas por donde circulan los camiones. El no conocer las rutas genera un serio problema para la movilidad de las personas y la administración pública al no lograr gestionar adecuadamente el transporte público de una ciudad.

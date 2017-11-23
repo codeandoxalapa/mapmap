@@ -167,5 +167,5 @@ Licencia MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.sv
 ---
 Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalapa por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir <strong>MapMap</strong>.
 
-#### <i>Happy Coding!</i><a href="http://codeandoxalapa.org/">Codeando Xalapa</a>
+#### <a href="http://codeandoxalapa.org/">Codeando Xalapa</a> <i>Happy Coding!</i>
 <img src="https://mapaton.org/images/back.png" with="100%" title="Route" />

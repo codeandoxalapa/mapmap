@@ -160,8 +160,7 @@ o bien, un resultado visual (ejemplo de una ruta):
 
 ### Licencia
 ---
-Licencia MIT <br>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Licencia MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ### Agradecimiento:

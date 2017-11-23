@@ -106,7 +106,9 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Manejo de datos
 ---
-
+1) Escenario actual, servidor TransitWand.
+2) Instalar su porpio servidor.
+3) Proceso de limpieza de datos.
 
 ### Análisis de calidad
 ---

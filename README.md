@@ -10,8 +10,7 @@ Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Tr
 - Tiempo inicial y final del recorrido.
 - Fotografía del transporte público que realiza la ruta.
 
-La aplicación puede ser utilizada para realizar cualquier tipo de trazo/recorrido siempre y cuando se utilicen en dispositivos con sistema operativo Android. El equipo de Codeando Xalapa agradece cualquier comentario, observación o sugerencia con respecto a la información contenida en esta aplicación y sus funcionalidades. 
-> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo esté <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
+La aplicación puede ser utilizada para realizar cualquier tipo de trazo/recorrido siempre y cuando se utilicen en dispositivos con sistema operativo Android. El equipo de Codeando Xalapa agradece cualquier comentario, observación o sugerencia con respecto a la información contenida en esta aplicación y sus funcionalidades.
 
 
 ### Problemática
@@ -60,7 +59,22 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
 
-_**En caso de tener un dispositivo móvil físico no es necesario realizar el paso no.6**_
+_**En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**_
+
+
+### Instalación
+---
+Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
+1) En Eclipse, abra la perspectiva de ClearTeam Explorer.
+2) Pulse <strong>Archivo</strong> > <strong>Importar</strong>.
+3) En la página Seleccionar del recuadro de diálogo Importar, seleccione <strong>Proyectos al Espacio de trabajo</strong> en el recuadro de lista <strong>Seleccionar un origen de importación</strong> y pulse <strong>Siguiente</strong>.
+4) En la página Importar proyectos del recuadro de diálogo Importar, verifique si la opción <strong>Seleccionar directorio raíz</strong> está seleccionada y, a continuación , pulse el botón Examinar de esta opción.
+5) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargado y seleccionelo.
+6) Pulse <strong>Finalizar</strong>.
+
+**Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual o bien desde un dispositivo móvil con sistema Android.**
+
+> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo esté <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
 
 
 ### Contribuyentes:

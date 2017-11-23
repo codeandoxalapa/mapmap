@@ -65,14 +65,13 @@ _**En caso de tener un dispositivo móvil físico no es necesario realizar el pa
 ### Instalación
 ---
 Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
-1) En Eclipse, abra la perspectiva de ClearTeam Explorer.
-2) Pulse <strong>Archivo</strong> > <strong>Importar</strong>.
-3) En la página Seleccionar del recuadro de diálogo Importar, seleccione <strong>Proyectos al Espacio de trabajo</strong> en el recuadro de lista <strong>Seleccionar un origen de importación</strong> y pulse <strong>Siguiente</strong>.
-4) En la página Importar proyectos del recuadro de diálogo Importar, verifique si la opción <strong>Seleccionar directorio raíz</strong> está seleccionada y, a continuación , pulse el botón Examinar de esta opción.
-5) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargado y seleccionelo.
-6) Pulse <strong>Finalizar</strong>.
+1) En Eclipse, pulse <strong>Archivo</strong> > <strong>Importar</strong>.
+2) En la página Seleccionar del recuadro de diálogo Importar, seleccione <strong>Proyectos al Espacio de trabajo</strong> en el recuadro de lista <strong>Seleccionar un origen de importación</strong> y pulse <strong>Siguiente</strong>.
+3) En la página Importar proyectos del recuadro de diálogo Importar, verifique si la opción <strong>Seleccionar directorio raíz</strong> está seleccionada y, a continuación , pulse el botón <strong>Examinar</strong> de esta opción.
+4) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargados y selecciónelo.
+5) Pulse <strong>Finalizar</strong>.
 
-**Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual o bien desde un dispositivo móvil con sistema Android.**
+**Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.**
 
 > <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo esté <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.
 

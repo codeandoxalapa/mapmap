@@ -101,16 +101,16 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
  <code>1.10.</code> Capacitar a las brigadas de voluntarios (ver manual de usuario).<br>
  <code>1.11.</code> dentificar horarios y días en los que hay disponibilidad el servicio de transporte público.<br><br>
 2. <strong>Durante el Trazado</strong><br>
- 2.1. Organizar las brigadas de voluntarios por parejas.<br>
- 2.2. Cubrir todas las rutas.<br>
- 2.3. Realizar y repetir el trazado de ruta.<br>
- 2.4 Los líderes de brigadas deben estar en contacto con sus brigadas de voluntarios.<br>
- 2.5 .Reportar el progreso del trazado por parte de los brigadistas voluntarios a los líderes de brigada.<br><br>
+ <code>2.1.</code> Organizar las brigadas de voluntarios por parejas.<br>
+ <code>2.2.</code> Cubrir todas las rutas.<br>
+ <code>2.3.</code> Realizar y repetir el trazado de ruta.<br>
+ <code>2.4.</code> Los líderes de brigadas deben estar en contacto con sus brigadas de voluntarios.<br>
+ <code>2.5.</code> .Reportar el progreso del trazado por parte de los brigadistas voluntarios a los líderes de brigada.<br><br>
 3. <strong>Posterior al Trazado</strong><br>
- 3.1. Recopilar la información resultado del trazado en el repositorio.<br>
- 3.2. Las brigadas de voluntarios deben informar a sus líderes que concluyeron el proceso de trazado.<br>
- 3.3. Los líderes deben llevar un registro de la zonas y rutas a su cargo que han sido trazadas por completo.<br>
- 3.4. La información deben ser verificada y contrastada con la cartografía de la zona geográfica que fue trazada.<br><br>
+ <code>3.1.</code> Recopilar la información resultado del trazado en el repositorio.<br>
+ <code>3.2.</code> Las brigadas de voluntarios deben informar a sus líderes que concluyeron el proceso de trazado.<br>
+ <code>3.3.</code> Los líderes deben llevar un registro de la zonas y rutas a su cargo que han sido trazadas por completo.<br>
+ <code>3.4.</code> La información deben ser verificada y contrastada con la cartografía de la zona geográfica que fue trazada.<br><br>
 > Existe una versión extendida de la metodología la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 
 

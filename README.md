@@ -1,11 +1,17 @@
 # MapMap
+Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato GTFS
+[https://developers.google.com/transit/gtfs/](https://developers.google.com/transit/gtfs/)
 <p align="center">
-  <img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" height="320px" title="MapMap"/>
+  <a href="https://mapaton.org" target="_blank"><img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" height="320px" title="MapMap"/></a>
 </p>
 
-## ¿Qué es?
-Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato GTFS
-[https://developers.google.com/transit/gtfs/](https://developers.google.com/transit/gtfs/) 
+## Problemática
+En un gran porcentaje de las ciudades latinoamericanas el transporte público se brinda a través de concesiones para el sector privado, esto implica que no se conoce el número de concesiones que transitan por las ciudades, ni los itinerarios así como las rutas por donde circulan los camiones. El no conocer las rutas genera un serio problema para la movilidad de las personas y la administración pública al no lograr gestionar adecuadamente el transporte público de una ciudad.
+
+## Descripción
+En el 2016 en la ciudad de Xalapa llevamos a cabo el ejercicio del Mapatón Ciudadano con la colaboración de la sociedad civil (Codeando Xalapa), 400 personas participantes, gobierno municipal y asociaciones como Open Street Map, WRI, entre otras. 
+
+Este ejercicio consistió en el uso de tecnologías de posicionamiento geográfico (GPS) y el uso de <strong>MapMap</strong> para la recolección de datos que permitieron crear feeds de las rutas de transporte público liberando esta información en formato abierto (GTFS, JSON, GIS, Shapefiles y GeoJSON) permitiendo ser utilizados por sistemas de navegación y buscando que el uso de los datos liberados permitan mejorar la movilidad de una ciudad.
 
 ## ¿En dónde puedo encontrarla?
 MapMap se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android.

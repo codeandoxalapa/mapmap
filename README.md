@@ -105,7 +105,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
  <code>2.2.</code> Cubrir todas las rutas.<br>
  <code>2.3.</code> Realizar y repetir el trazado de ruta.<br>
  <code>2.4.</code> Los líderes de brigadas deben estar en contacto con sus brigadas de voluntarios.<br>
- <code>2.5.</code> .Reportar el progreso del trazado por parte de los brigadistas voluntarios a los líderes de brigada.<br><br>
+ <code>2.5.</code> Reportar el progreso del trazado por parte de los brigadistas voluntarios a los líderes de brigada.<br><br>
 3. <strong>Posterior al Trazado</strong><br>
  <code>3.1.</code> Recopilar la información resultado del trazado en el repositorio.<br>
  <code>3.2.</code> Las brigadas de voluntarios deben informar a sus líderes que concluyeron el proceso de trazado.<br>

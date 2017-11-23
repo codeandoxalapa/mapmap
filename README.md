@@ -79,7 +79,7 @@ Agradecemos a todos los miembros que pertenecen a la comunidad de Codeando Xalap
 
 ### Licencia
 ---
-The MIT License (MIT)
+Licencia MIT <br>
 Copyright (c) 2017 Codeando Xalapa
 
 

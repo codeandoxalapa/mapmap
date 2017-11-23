@@ -154,7 +154,7 @@ Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap
 * Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data
 * Datos en <a href="https://www.mapillary.com/app/user/xalapa?lat=19.533702607228946&lng=-96.84397948833018&z=11.389325293212847&username%5B%5D=xalapa">Mapillary</a>
 <br><br>
-o bien, un resultado visual: 
+o bien, un resultado visual (ejemplo de una ruta): 
 <img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
 

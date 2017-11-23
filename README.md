@@ -53,7 +53,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
 ```
-_**En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**_
+> **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**
 
 
 ### Instalación

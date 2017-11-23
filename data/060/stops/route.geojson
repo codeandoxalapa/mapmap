@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "13920140", "routeId": "13920139", "sequence": 0, "travelTime": 487, "dwellTime": 11, "arrivalTim": 0, "departureT": 1, "passengerA": 487, "passengerB": 498 }, "geometry": { "type": "Point", "coordinates": [ -96.906075, 19.54533 ] } },
+{ "type": "Feature", "properties": { "id": "13920142", "routeId": "13920139", "sequence": 1, "travelTime": 188, "dwellTime": 5, "arrivalTim": 1, "departureT": 0, "passengerA": 686, "passengerB": 691 }, "geometry": { "type": "Point", "coordinates": [ -96.901405, 19.548271 ] } },
+{ "type": "Feature", "properties": { "id": "13920144", "routeId": "13920139", "sequence": 2, "travelTime": 112, "dwellTime": 4, "arrivalTim": 0, "departureT": 0, "passengerA": 803, "passengerB": 807 }, "geometry": { "type": "Point", "coordinates": [ -96.89965, 19.55256 ] } }
+]
+}

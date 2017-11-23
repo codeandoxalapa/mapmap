@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "13928751", "routeId": "13928750", "sequence": 0, "travelTime": 173, "dwellTime": 8, "arrivalTim": 0, "departureT": 17, "passengerA": 173, "passengerB": 181 }, "geometry": { "type": "Point", "coordinates": [ -96.93095, 19.536268 ] } },
+{ "type": "Feature", "properties": { "id": "13928753", "routeId": "13928750", "sequence": 1, "travelTime": 10, "dwellTime": 21, "arrivalTim": 1, "departureT": 2, "passengerA": 191, "passengerB": 212 }, "geometry": { "type": "Point", "coordinates": [ -96.93135, 19.535912 ] } },
+{ "type": "Feature", "properties": { "id": "13928755", "routeId": "13928750", "sequence": 2, "travelTime": 193, "dwellTime": 6, "arrivalTim": 0, "departureT": 2, "passengerA": 405, "passengerB": 411 }, "geometry": { "type": "Point", "coordinates": [ -96.93417, 19.53185 ] } },
+{ "type": "Feature", "properties": { "id": "13928757", "routeId": "13928750", "sequence": 3, "travelTime": 153, "dwellTime": 8, "arrivalTim": 3, "departureT": 0, "passengerA": 564, "passengerB": 572 }, "geometry": { "type": "Point", "coordinates": [ -96.93408, 19.52559 ] } },
+{ "type": "Feature", "properties": { "id": "13928759", "routeId": "13928750", "sequence": 4, "travelTime": 126, "dwellTime": 42, "arrivalTim": 2, "departureT": 11, "passengerA": 698, "passengerB": 740 }, "geometry": { "type": "Point", "coordinates": [ -96.93115, 19.523563 ] } },
+{ "type": "Feature", "properties": { "id": "13928761", "routeId": "13928750", "sequence": 5, "travelTime": 72, "dwellTime": 6, "arrivalTim": 0, "departureT": 1, "passengerA": 812, "passengerB": 818 }, "geometry": { "type": "Point", "coordinates": [ -96.93018, 19.523205 ] } },
+{ "type": "Feature", "properties": { "id": "13928763", "routeId": "13928750", "sequence": 6, "travelTime": 130, "dwellTime": 10, "arrivalTim": 2, "departureT": 0, "passengerA": 948, "passengerB": 958 }, "geometry": { "type": "Point", "coordinates": [ -96.92721, 19.521812 ] } },
+{ "type": "Feature", "properties": { "id": "13928765", "routeId": "13928750", "sequence": 7, "travelTime": 77, "dwellTime": 6, "arrivalTim": 1, "departureT": 0, "passengerA": 1035, "passengerB": 1041 }, "geometry": { "type": "Point", "coordinates": [ -96.92628, 19.521461 ] } },
+{ "type": "Feature", "properties": { "id": "13928767", "routeId": "13928750", "sequence": 8, "travelTime": 154, "dwellTime": 7, "arrivalTim": 1, "departureT": 0, "passengerA": 1195, "passengerB": 1202 }, "geometry": { "type": "Point", "coordinates": [ -96.92435, 19.521524 ] } }
+]
+}

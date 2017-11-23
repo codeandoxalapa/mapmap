@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "id": "13929445", "routeId": "13929444", "sequence": 0, "travelTime": 147493964, "dwellTime": 17, "arrivalTim": 11, "departureT": 12, "passengerA": 147493964, "passengerB": 147493965 }, "geometry": { "type": "Point", "coordinates": [ -96.974464, 19.550838 ] } }
+]
+}

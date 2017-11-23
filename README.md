@@ -1,4 +1,5 @@
-<img src="https://mapaton.org/images/app-mapmap-readme.png" align="right" with="50%" />
+<img src="https://mapaton.org/images/app-mapmap-readme.png" align="right" width="50%" />
+
 # MapMap
 ### Descripción
 ---

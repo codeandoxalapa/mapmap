@@ -88,7 +88,7 @@ Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap
 Shapefiles - https://www.mapaton.org/resultados <br>
 Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data <br>
 <br><br>
-ó bien: 
+o bien, un resultado visual: 
 <img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
 
 ### Contribuyentes:

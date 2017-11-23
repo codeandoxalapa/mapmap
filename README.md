@@ -1,7 +1,7 @@
 # MapMap
 Aplicacíon móvil que te permite mapear rutas que recorren los vehiculos del Transporte Público, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>.
 <p align="center">
-  <a href="https://mapaton.org" target="_blank"><img src="https://mapaton.org/images/app-mapmap-readme.png" width="100%" title="MapMap"/></a>
+  <a href="https://mapaton.org" target="_blank"><img src="https://mapaton.org/images/app-mapmap-readme.png" aling="right" width="100%" title="MapMap"/></a>
 </p>
 
 ## Problemática

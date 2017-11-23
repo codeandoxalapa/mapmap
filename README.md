@@ -101,7 +101,6 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
  3.2. Las brigadas de voluntarios deben informar a sus líderes que concluyeron el proceso de trazado.<br>
  3.3. Los líderes deben llevar un registro de la zonas y rutas a su cargo que han sido trazadas por completo.<br>
  3.4. La información deben ser verificada y contrastada con la cartografía de la zona geográfica que fue trazada.<br><br>
-<br>
 > Existe una versión extendida de la metodología la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 
 

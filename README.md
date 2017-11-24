@@ -141,7 +141,7 @@ Una vez que se dispone de los datos en formato estandarizado y abierto se puede 
   * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
   * https://datos.gob.mx/busca/dataset/rutas-tranporte-publico 
 <br>
-Es importante mencionar:
+Es importante mencionar:<br>
   * En ambas plataformas los datos pueden ser descargados y utilizados de manera libre y gratuita (sin costo económico alguno).
   * El Ayuntamiento de la Ciudad de Xalapa realizó la publicación en https://datos.gob.mx reconociendo del trabajo realizado en Mapatón Ciudadano como un proyecto de movilidad urbana para la ciudad de Xalapa, Veracruz.
 <br><br>

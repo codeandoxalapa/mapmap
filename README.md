@@ -29,7 +29,7 @@ En la ciudad de Xalapa llevamos a cabo el ejercicio del <a href="https://mapaton
 ### Tecnología
 ---
 * Java 1.6 hasta Java 8 - [Descargar](http://www.oracle.com/technetwork/es/java/javase/downloads/index.html)
-* Protocol Buffer Java - [Descargar](https://marketplace.eclipse.org/content/protobuf-dt) 
+* Protocol Buffer - [Descargar](https://marketplace.eclipse.org/content/protobuf-dt) 
 * Android SDK, versión mínima 2.2 (Api Level 8) - [Descargar](https://developer.android.com/studio/index.html)
 * IDE Eclipse for Android Developers - [Descargar](http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-incubating-components/neon3) 
 

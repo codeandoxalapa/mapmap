@@ -142,9 +142,13 @@ Una vez que se dispone de los datos en formato estandarizado y abierto se puede 
   * https://datos.gob.mx/busca/dataset/rutas-tranporte-publico 
 <br>
 Es importante mencionar:<br>
-  * En ambas plataformas los datos pueden ser descargados y utilizados de manera libre y gratuita (sin costo económico alguno).
-  * El Ayuntamiento de la Ciudad de Xalapa realizó la publicación en https://datos.gob.mx reconociendo del trabajo realizado en Mapatón Ciudadano como un proyecto de movilidad urbana para la ciudad de Xalapa, Veracruz.
-<br><br>
+```
+En ambas plataformas los datos pueden ser descargados y utilizados de manera libre y gratuita (sin costo económico alguno).
+```
+```
+El Ayuntamiento de la Ciudad de Xalapa realizó la publicación en https://datos.gob.mx reconociendo del trabajo realizado en Mapatón Ciudadano como un proyecto de movilidad urbana para la ciudad de Xalapa, Veracruz.
+```
+<br>
 De esa forma la información puede ser utilizada y compartida para futuros proyectos, investigaciones académicas, análisis y planeación de movilidad urbana, entre otros.
 > Existe una versión extendida del proceso de limpieza de datos la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 

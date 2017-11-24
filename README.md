@@ -71,6 +71,7 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 4) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargados y selecciónelo.
 5) Pulse <strong>Finalizar</strong>.
 > Importar proyecto Android a IDE Eclipse, tutorial <a href="http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/">aquí</a>
+<br>
 **Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.**
 
 > <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo este <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.

@@ -86,7 +86,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Metodología
 ---
-<strong>MapMap</strong> fue utilizada en el ejercicio del Mapatón Ciudadano, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en cualquier ciudad, se divide en 3 apartados:<br><br>
+<strong>MapMap</strong> fue utilizada en el ejercicio del Mapatón Ciudadano, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en <strong>cualquier ciudad que quiera implementarlo</strong>, se divide en 3 apartados:<br><br>
 1. <strong>Previo al Trazado</strong><br>
  <code>1.1.</code> Tener identificado brigadistas (personas que harán el trazado).<br>
  <code>1.2.</code> Tener un primer acercamiento con checadores y choferes, desde los puntos más importantes que concentran rutas.<br>

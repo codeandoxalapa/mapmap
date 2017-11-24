@@ -140,7 +140,7 @@ Ejemplo de un geojson obtenido de <strong>MapMap</strong>:<br><br>
 Una vez que se dispone de los datos en formato estandarizado y abierto se puede realizar una publicación de la información recolectada. En el caso de Mapatón Ciudadano las rutas de transporte público se publicaron en dos plataformas mexicanas para la publicación de datos abiertos, estas son:
   * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
   * https://datos.gob.mx/busca/dataset/rutas-tranporte-publico
-Es importante mencionar:<br>
+<br>Es importante mencionar:<br>
 ```
 En ambas plataformas los datos pueden ser descargados y utilizados de manera libre y gratuita (sin costo económico alguno).
 ```

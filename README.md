@@ -163,7 +163,6 @@ Critical issues: 49 (> 20) <strong>Standard</strong> <br>
 Technical debt: 5d (< 10d) <strong>Hard</strong> <br>
 Test coverage: 0% (< 10%) <strong>Low</strong> <br>
 
-<br>
 <img src="https://mapaton.org/images/sonar_result.png" with="100%" align="right" title="Route" /><br>
 Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
 

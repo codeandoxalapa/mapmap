@@ -43,7 +43,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 ```
 ```
 2. Instalar Android SDK
-  * http://www.androidcentral.com/installing-android-sdk-windows-mac-and-linux-tutorial
+  * https://developer.android.com/studio/install.html
 ```
 ```
 3. Instar IDE Eclipse (Android Developer)
@@ -55,15 +55,11 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * http://www.theserverside.com/tutorial/Step-by-step-guide-to-Android-development-with-Eclipse
 ```
 ```
-5. Importar proyecto Android a IDE Eclipse
-  * http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/
-```
-```
-6. Crear AVD (Android Virtual Device)
+5. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
-  * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/
+  * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/ 
 ```
-> **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**
+> **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 5**
 
 
 ### Instalación
@@ -74,7 +70,7 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 3) En la página Importar proyectos del recuadro de diálogo Importar, verifique si la opción <strong>Seleccionar directorio raíz</strong> está seleccionada y, a continuación , pulse el botón <strong>Examinar</strong> de esta opción.
 4) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargados y selecciónelo.
 5) Pulse <strong>Finalizar</strong>.
-
+> Importar proyecto Android a IDE Eclipse, tutorial <a href="http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/">aquí</a>
 **Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.**
 
 > <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android siguiendo este <a href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap&hl=es" target="_blank">enlace</a>.

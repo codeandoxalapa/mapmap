@@ -116,12 +116,21 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ### Manejo de datos
 ---
 Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
+<br>
+Escoger servidor de almacenamiento:
+   * Servidor Público de Transitwand (http://transitwand.com/):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv)
+   * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
 
-1) Escoger servidor de almacenamiento:
-   * Servidor Público de Transitwand (http://transitwand.com/)  permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv)
-   * Instalar tu propio servidor con el software de Transitwand, de esa forma tú puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos, sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento  y sin previo aviso. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
-2) Proceso de limpieza de datos.
-   * Descargar datos
+
+### Limpieza de datos
+---
+Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
+##### Descargar datos
+Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura e ingresarlo:<br>
+<img src="https://mapaton.org/images/seis.png" with="100%" align="middle" title="Route" />
+<br>
+Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br>
+<img src="https://mapaton.org/images/descarga.png" with="100%" align="middle" title="Route" />
    * Convertir ShapeFiles a GEOJSON (https://github.com/XalapaJS/xalapa_bus_data)
    * Publicación en datos abiertos
 

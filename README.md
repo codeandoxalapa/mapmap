@@ -130,7 +130,7 @@ Lo único que se requiere es ingresar el código de seis dígitos que la aplicac
 <img src="https://mapaton.org/images/seis.png" with="100%" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-<img src="https://mapaton.org/images/descarga.png" with="100%" align="middle" title="Route" />
+
 #### Convertir ShapeFiles a GEOJSON
 Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
 Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).

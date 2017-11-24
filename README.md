@@ -125,14 +125,19 @@ Escoger servidor de almacenamiento:
 ### Limpieza de datos
 ---
 Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
-##### Descargar datos
+#### Descargar datos
 Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura e ingresarlo:<br>
 <img src="https://mapaton.org/images/seis.png" with="100%" align="middle" title="Route" />
-<br>
-Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br>
+<br><br>
+Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
 <img src="https://mapaton.org/images/descarga.png" with="100%" align="middle" title="Route" />
-   * Convertir ShapeFiles a GEOJSON (https://github.com/XalapaJS/xalapa_bus_data)
-   * Publicación en datos abiertos
+#### Convertir ShapeFiles a GEOJSON
+Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
+Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).
+#### Publicación en datos abiertos
+Una vez que se dispone de los datos en formato estandarizado y abierto se puede realizar una publicación de la información recolectada. En el caso de Mapatón Ciudadano las rutas de transporte público se publicaron en dos plataformas mexicanas para la publicación de datos abiertos, estas son:
+  * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
+  * https://datos.gob.mx/busca/dataset/rutas-tranporte-publico 
 
 
 ### Análisis de calidad

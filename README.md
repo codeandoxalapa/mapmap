@@ -130,7 +130,7 @@ Lo único que se requiere es ingresar el código de seis dígitos que la aplicac
 <img src="https://mapaton.org/images/seis.png" with="100%" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-
+<img src="https://mapaton.org/images/descarga.png" with="100%" align="middle" title="Route" />
 #### Convertir ShapeFiles a GEOJSON
 Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
 Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).
@@ -140,6 +140,13 @@ Ejemplo de un geojson obtenido de <strong>MapMap</strong>:<br><br>
 Una vez que se dispone de los datos en formato estandarizado y abierto se puede realizar una publicación de la información recolectada. En el caso de Mapatón Ciudadano las rutas de transporte público se publicaron en dos plataformas mexicanas para la publicación de datos abiertos, estas son:
   * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
   * https://datos.gob.mx/busca/dataset/rutas-tranporte-publico 
+<br>
+Es importante mencionar: 
+  * En ambas plataformas los datos pueden ser descargados y utilizados de manera libre y gratuita (sin costo económico alguno).
+  * El Ayuntamiento de la Ciudad de Xalapa realizó la publicación en https://datos.gob.mx reconociendo del trabajo realizado en Mapatón Ciudadano como un proyecto de movilidad urbana para la ciudad de Xalapa, Veracruz.
+<br><br>
+De esa forma la información puede ser utilizada y compartida para futuros proyectos, investigaciones académicas, análisis y planeación de movilidad urbana, entre otros.
+> Existe una versión extendida del proceso de limpieza de datos la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
 
 
 ### Análisis de calidad

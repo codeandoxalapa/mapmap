@@ -128,11 +128,11 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 ---
 De acuerdo al sistema de evaluación de software definido en la guía de ciclo de vida de desarrollo de software, el análisis de esta herramienta ha generado la siguiente evaluación:
 
-Blocker issues: <br>
-Duplicated lines: <br>
-Critical issues: <br>
-Technical debt: <br>
-Test coverage: <br>
+Blocker issues: 4 (> 0) <strong>Low</strong> <br>
+Duplicated lines: 9.5% (< 15%) <strong>Hard</strong> <br>
+Critical issues: 49 (> 20) <strong>Standard</strong> <br>
+Technical debt: 5d (< 10d) <strong>Hard</strong> <br>
+Test coverage: 0% (< 10%) <strong>Low</strong> <br>
 
 Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
 

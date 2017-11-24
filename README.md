@@ -55,11 +55,16 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * http://www.theserverside.com/tutorial/Step-by-step-guide-to-Android-development-with-Eclipse
 ```
 ```
-5. Crear AVD (Android Virtual Device)
+5. Instalar Protocol Buffer
+  * https://github.com/google/protobuf/releases/tag/v2.4.1
+  * https://marketplace.eclipse.org/content/protobuf-dt
+```
+```
+6. Crear AVD (Android Virtual Device)
   * https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/creating_an_android_emulator.html
   * http://theopentutorials.com/tutorials/android/how-to-create-android-avd-emulator-in-eclipse/ 
 ```
-> **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 5**
+> **En caso de tener un dispositivo móvil físico no es necesario realizar el paso número 6**
 
 
 ### Instalación

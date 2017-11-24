@@ -46,7 +46,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
   * https://developer.android.com/studio/install.html
 ```
 ```
-3. Instar IDE Eclipse (Android Developer)
+3. Instalar IDE Eclipse (Android Developer)
   * http://www.eclipse.org/downloads/packages/eclipse-android-developers-includes-incubating-components/neon3
 ```
 ```

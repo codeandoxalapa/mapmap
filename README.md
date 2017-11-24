@@ -71,7 +71,7 @@ Si lo que deseas es utilizar el proyecto como desarrollador lo primero que debes
 ---
 Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 1) En Eclipse, pulse <strong>Archivo</strong> > <strong>Importar</strong>.
-2) En la página Seleccionar del recuadro de diálogo Importar, seleccione Android y después <strong>Proyectos Android existentes en el Espacio de trabajo</strong> en el recuadro de lista <strong>Seleccionar un origen de importación</strong> y pulse <strong>Siguiente</strong>.
+2) En la página Seleccionar del recuadro de diálogo Importar, seleccione Android y después <strong>Proyectos Android existentes en el Espacio de trabajo</strong> en el recuadro de lista, pulse <strong>Siguiente</strong>.
 3) En la página Importar proyectos del recuadro de diálogo Importar, verifique si la opción <strong>Seleccionar directorio raíz</strong> está seleccionada y, a continuación , pulse el botón <strong>Examinar</strong> de esta opción.
 4) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargados y selecciónelo.
 5) Pulse <strong>Finalizar</strong>.

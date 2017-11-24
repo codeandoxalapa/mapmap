@@ -115,9 +115,11 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Manejo de datos
 ---
+Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
+
 1) Escoger servidor de almacenamiento:
-   * TransitWand
-   * Instalar servidor propio
+   * Servidor Público de Transitwand (http://transitwand.com/)  permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y Comma-separated values (.csv)
+   * Instalar tu propio servidor con el software de Transitwand, de esa forma tú puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos, sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento  y sin previo aviso. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
 2) Proceso de limpieza de datos.
    * Descargar datos
    * Convertir ShapeFiles a GEOJSON (https://github.com/XalapaJS/xalapa_bus_data)

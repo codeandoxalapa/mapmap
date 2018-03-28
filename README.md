@@ -120,7 +120,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
 <br><br>
 Escoger servidor de almacenamiento:<br>
-   * Servidor Público de Transitwand (http://transitwand.com/):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
+   * Servidor Público de Transitwand dentro de la web del Mapatón Ciudadano (http://mapaton.org:9000):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
    * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
 
 
@@ -164,7 +164,7 @@ Critical issues: 49 (> 20) <strong>Standard</strong> <br>
 Technical debt: 5d (< 10d) <strong>Hard</strong> <br>
 Test coverage: 0% (< 10%) <strong>Low</strong> <br>
 
-<img src="https://mapaton.org/libs/images/sonar_result.png" with="100%" align="right" title="Route" /><br>
+<img src="https://mapaton.org/libs/images/sonar_result1.png" with="100%" align="right" title="Route" /><br>
 Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
 
 

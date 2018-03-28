@@ -83,7 +83,7 @@ Una vez importado el proyecto podrá correr la aplicación desde un dispositivo 
 ### ¿Cómo se utiliza?
 ---
 El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
-[https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
+[https://mapaton.org/mapaton-ciudadano-xalapa/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
 
 
 ### Metodología
@@ -129,7 +129,7 @@ Escoger servidor de almacenamiento:<br>
 Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
 #### Descargar datos
 Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura e ingresarlo:<br><br>
-<img src="https://mapaton.org/libs/images/seis.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/seis.png" with="300px" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
 <img src="https://mapaton.org/libs/images/descarga.png" with="100%" align="middle" title="Route" />

@@ -129,15 +129,15 @@ Escoger servidor de almacenamiento:<br>
 Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
 #### Descargar datos
 Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura e ingresarlo:<br><br>
-<img src="https://mapaton.org/images/seis.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/seis.png" with="100%" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-<img src="https://mapaton.org/images/descarga.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/descarga.png" with="100%" align="middle" title="Route" />
 #### Convertir ShapeFiles a GEOJSON
 Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
 Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).
 Ejemplo de un geojson obtenido de <strong>MapMap</strong>:<br><br>
-<img src="https://mapaton.org/images/example_geojson.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/example_geojson.png" with="100%" align="middle" title="Route" />
 #### Publicación en datos abiertos
 Una vez que se dispone de los datos en formato estandarizado y abierto se puede realizar una publicación de la información recolectada. En el caso de Mapatón Ciudadano las rutas de transporte público se publicaron en dos plataformas mexicanas para la publicación de datos abiertos, estas son:
   * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
@@ -164,13 +164,13 @@ Critical issues: 49 (> 20) <strong>Standard</strong> <br>
 Technical debt: 5d (< 10d) <strong>Hard</strong> <br>
 Test coverage: 0% (< 10%) <strong>Low</strong> <br>
 
-<img src="https://mapaton.org/images/sonar_result.png" with="100%" align="right" title="Route" /><br>
+<img src="https://mapaton.org/libs/images/sonar_result.png" with="100%" align="right" title="Route" /><br>
 Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
 
 
 ### Autores:
 ---
-[![](https://mapaton.org/libs/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa) Codeando Xalapa
+[![](https://mapaton.org/libs/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa)
 * Rolando Drouaillet Pumarino
 * Juan Manuel Becerril del Toro
 * Elizabeth Montenegro Ñeco

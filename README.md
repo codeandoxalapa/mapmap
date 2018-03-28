@@ -170,7 +170,7 @@ Más información en este <a href="https://el-bid.github.io/software-life-cycle-
 
 ### Autores:
 ---
-[![](https://mapaton.org/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa) Codeando Xalapa
+[![](https://mapaton.org/libs/images/small-logo-codeandoxalapa-readme.png)](https://github.com/codeandoxalapa) Codeando Xalapa
 * Rolando Drouaillet Pumarino
 * Juan Manuel Becerril del Toro
 * Elizabeth Montenegro Ñeco
@@ -180,12 +180,13 @@ Más información en este <a href="https://el-bid.github.io/software-life-cycle-
 ### Información adicional
 ---
 Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br><br>
-* Shapefiles - https://www.mapaton.org/resultados
+* Visor de rutas - https://mapaton.org/rutas/
+* Servidor para administrar archivos Shapefiles - http://mapaton.org:9000
 * Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data
 * Datos en <a href="https://www.mapillary.com/app/user/xalapa?lat=19.533702607228946&lng=-96.84397948833018&z=11.389325293212847&username%5B%5D=xalapa">Mapillary</a>
 <br><br>
 o bien, un resultado visual (ejemplo de una ruta): 
-<img src="https://mapaton.org/images/ejemplo_route.png" with="100%" title="Route" />
+<img src="https://mapaton.org/libs/images/ejemplo_route.png" with="100%" title="Route" />
 
 
 ### Licencia
@@ -198,4 +199,4 @@ Licencia MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.sv
 Agradecemos a todos los miembros que pertenecen a la comunidad de <a href="http://codeandoxalapa.org/">Codeando Xalapa</a> por contribuir en este proyecto. También agradecemos al proyecto [TransitWand](https://github.com/conveyal/transit-wand) por haber creado la aplicación móvil que sirvió como base para construir <strong>MapMap</strong>.
 
 #### <i> Happy Coding!</i>
-<img src="https://mapaton.org/images/back.png" with="100%" title="Route" />
+<img src="https://mapaton.org/libs/images/back.png" with="100%" title="Route" />

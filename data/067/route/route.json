@@ -1,0 +1,1818 @@
+{
+  "type": "FeatureCollection",
+  "id": "13928750",
+  "name": "Ruta 10011",
+  "desc": "Avila Camacho, Ignacio de la Llave, Sauces, Zona UV",
+  "notes": "",
+  "peak_am": "10",
+  "midday": "10",
+  "peak_pm": "10",
+  "night": "10",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276991,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 75.62,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93465789969407,
+            19.527930506748326
+          ],
+          [
+            -96.9347892754368,
+            19.52860430423907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275633,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 54.97,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92806471643931,
+            19.522115423617123
+          ],
+          [
+            -96.92759545666904,
+            19.52189137854593
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276036,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 81.61,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93169954994005,
+            19.523844463204842
+          ],
+          [
+            -96.93155413305486,
+            19.523740864363734
+          ],
+          [
+            -96.9310032576068,
+            19.523520128727995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275899,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DE LOS ATLETAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 16.59,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92549317892194,
+            19.523022611201796
+          ],
+          [
+            -96.92542320804637,
+            19.523157600448403
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275900,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 88.86,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92542320804637,
+            19.523157600448403
+          ],
+          [
+            -96.92495378859819,
+            19.522486543249364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277767,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 79.84,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93441839828773,
+            19.531203754038554
+          ],
+          [
+            -96.93413290053947,
+            19.531874674203358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275484,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 116.84,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9241791435855,
+            19.52138242794862
+          ],
+          [
+            -96.92355419013805,
+            19.520505008206104
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275485,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DE LOS ATLETAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 27.42,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92635258339101,
+            19.52121235971819
+          ],
+          [
+            -96.92631313898823,
+            19.521458003900246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276387,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "NINGUNO",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "ESTATAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MORA BERISTAIN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 158.91,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93399097527374,
+            19.52570498279906
+          ],
+          [
+            -96.9327108915163,
+            19.52493019699432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275654,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 26.58,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9282921973784,
+            19.52222259359383
+          ],
+          [
+            -96.92806471643931,
+            19.522115423617123
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276625,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 46.69,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93426933543793,
+            19.52644309438731
+          ],
+          [
+            -96.9343810665029,
+            19.526852763777626
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279421,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 73.56,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92969945739303,
+            19.53739398570652
+          ],
+          [
+            -96.93020782066317,
+            19.536933516107567
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278309,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 9.77,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93377494699145,
+            19.532903338452606
+          ],
+          [
+            -96.93375802424136,
+            19.532990460659807
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274792,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 14.28,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92263780574177,
+            19.519170457732436
+          ],
+          [
+            -96.92256081871977,
+            19.51906361948786
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277311,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 107.68,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93472553940717,
+            19.528942093156637
+          ],
+          [
+            -96.93460369375723,
+            19.529910930968004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274942,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 63.87,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92296998571288,
+            19.5196559797541
+          ],
+          [
+            -96.92263780574177,
+            19.519170457732436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275660,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DE LOS ATLETAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 27.8,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9260692867523,
+            19.52193783432609
+          ],
+          [
+            -96.92594957649621,
+            19.522162804016812
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276532,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 29.21,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93417820602426,
+            19.526192837772047
+          ],
+          [
+            -96.93426933543793,
+            19.52644309438731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278599,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 15.08,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93358361420049,
+            19.53360271661879
+          ],
+          [
+            -96.93354572707544,
+            19.533734623529057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279315,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 35.06,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93020782066317,
+            19.536933516107567
+          ],
+          [
+            -96.93044782463531,
+            19.536711754416633
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276853,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 122.41,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9343810665029,
+            19.526852763777626
+          ],
+          [
+            -96.93465789969407,
+            19.527930506748326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278622,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 14.2,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93354572707544,
+            19.533734623529057
+          ],
+          [
+            -96.93344363602021,
+            19.533819404377482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279567,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 105.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92895669936843,
+            19.53803745652288
+          ],
+          [
+            -96.92969945739303,
+            19.53739398570652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278370,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 16.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93375802424136,
+            19.532990460659807
+          ],
+          [
+            -96.93371911310393,
+            19.533133274977047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278861,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 52.03,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93270354286392,
+            19.534738905787407
+          ],
+          [
+            -96.9330601620862,
+            19.534410301570528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275690,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 112.62,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92477713455725,
+            19.522230871116136
+          ],
+          [
+            -96.9241791435855,
+            19.52138242794862
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275537,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 89.23,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9270732945818,
+            19.521644627585058
+          ],
+          [
+            -96.92635258339101,
+            19.52121235971819
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277836,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 25.25,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93413290053947,
+            19.531874674203358
+          ],
+          [
+            -96.93404101869027,
+            19.532086235857502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275956,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 116.82,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9310032576068,
+            19.523520128727995
+          ],
+          [
+            -96.93068967764444,
+            19.523397489826138
+          ],
+          [
+            -96.93000333955266,
+            19.523051724468065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276221,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MORA BERISTAIN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 95.54,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9327108915163,
+            19.52493019699432
+          ],
+          [
+            -96.93275416021099,
+            19.524690161354936
+          ],
+          [
+            -96.93270819062109,
+            19.524514640172725
+          ],
+          [
+            -96.93233517808622,
+            19.524250607199484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278763,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 76.56,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9330601620862,
+            19.534410301570528
+          ],
+          [
+            -96.93344363602021,
+            19.533819404377482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276119,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 80.2,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93233517808622,
+            19.524250607199484
+          ],
+          [
+            -96.93169954994005,
+            19.523844463204842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276464,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MORA BERISTAIN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 49.26,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9341505583437,
+            19.526124894995668
+          ],
+          [
+            -96.93409877011821,
+            19.525976887813748
+          ],
+          [
+            -96.93399097527374,
+            19.52570498279906
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277565,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 125.5,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93458081612847,
+            19.530076983374993
+          ],
+          [
+            -96.93441839828773,
+            19.531203754038554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278257,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 85.1,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9340071108201,
+            19.53216430971996
+          ],
+          [
+            -96.93377494699145,
+            19.532903338452606
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275243,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 111.88,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92355419013805,
+            19.520505008206104
+          ],
+          [
+            -96.92296998571288,
+            19.5196559797541
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279122,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 65.48,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93140939270522,
+            19.535854702488894
+          ],
+          [
+            -96.93186637165844,
+            19.53544927506507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277078,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 37.87,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9347892754368,
+            19.52860430423907
+          ],
+          [
+            -96.93472553940717,
+            19.528942093156637
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275845,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 123.66,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93000333955266,
+            19.523051724468065
+          ],
+          [
+            -96.92895499321897,
+            19.52253439218711
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278008,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 131.59,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93049230913427,
+            19.53667065084289
+          ],
+          [
+            -96.93140939270522,
+            19.535854702488894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274278,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 18.48,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93460369375723,
+            19.529910930968004
+          ],
+          [
+            -96.93458081612847,
+            19.530076983374993
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276475,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 8.03,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9341505583437,
+            19.526124894995668
+          ],
+          [
+            -96.93417820602426,
+            19.526192837772047
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278013,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 6.49,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93044782463531,
+            19.536711754416633
+          ],
+          [
+            -96.93049230913427,
+            19.53667065084289
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275596,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 61.05,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92759545666904,
+            19.52189137854593
+          ],
+          [
+            -96.9270732945818,
+            19.521644627585058
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275728,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 77.42,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92895499321897,
+            19.52253439218711
+          ],
+          [
+            -96.9282921973784,
+            19.52222259359383
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278548,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 53.71,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93371911310393,
+            19.533133274977047
+          ],
+          [
+            -96.93358361420049,
+            19.53360271661879
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279018,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MANUEL \ufffdVILA CAMACHO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 117.55,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93186637165844,
+            19.53544927506507
+          ],
+          [
+            -96.93270354286392,
+            19.534738905787407
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275868,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DE LOS ATLETAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 106.23,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92594957649621,
+            19.522162804016812
+          ],
+          [
+            -96.92549317892194,
+            19.523022611201796
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275614,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DE LOS ATLETAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 58.78,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92631313898823,
+            19.521458003900246
+          ],
+          [
+            -96.9260692867523,
+            19.52193783432609
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275273,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "PASEO LOS LAGOS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 256.36,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9216566626714,
+            19.52052017938891
+          ],
+          [
+            -96.92164240039767,
+            19.520449488081894
+          ],
+          [
+            -96.92149758427959,
+            19.52028070589589
+          ],
+          [
+            -96.92137875969352,
+            19.520165468515906
+          ],
+          [
+            -96.92128640027964,
+            19.520025780510718
+          ],
+          [
+            -96.92129939168052,
+            19.519827893626186
+          ],
+          [
+            -96.92135894323073,
+            19.519670148466155
+          ],
+          [
+            -96.92189396641373,
+            19.51914160073946
+          ],
+          [
+            -96.92198413443629,
+            19.519043618455004
+          ],
+          [
+            -96.92214909880084,
+            19.51882272284253
+          ],
+          [
+            -96.9222614359415,
+            19.518643838004134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277882,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "IGNACIO DE LA LLAVE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 9.31,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.93404101869027,
+            19.532086235857502
+          ],
+          [
+            -96.9340071108201,
+            19.53216430971996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275748,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 33.73,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92495378859819,
+            19.522486543249364
+          ],
+          [
+            -96.92477713455725,
+            19.522230871116136
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274771,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "VENUSTIANO CARRANZA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 55.92,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92256081871977,
+            19.51906361948786
+          ],
+          [
+            -96.9222614359415,
+            19.518643838004134
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4862 @@
+{
+  "type": "FeatureCollection",
+  "id": "13972180",
+  "name": "Ruta 10010",
+  "desc": "ruta 3",
+  "notes": "",
+  "peak_am": "10",
+  "midday": "10",
+  "peak_pm": "10",
+  "night": "10",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290439,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 29.51,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9010460064391,
+            19.56572687622601
+          ],
+          [
+            -96.90080244072898,
+            19.56586179489705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278722,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 16.42,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90704951568513,
+            19.533335555747087
+          ],
+          [
+            -96.90706245391127,
+            19.533187194934875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278215,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 199.4,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90294721064285,
+            19.530918599300314
+          ],
+          [
+            -96.90461598679711,
+            19.53179113754146
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277221,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 145.64,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89804835179415,
+            19.527180517161373
+          ],
+          [
+            -96.89834066688898,
+            19.527696383264566
+          ],
+          [
+            -96.89871715786516,
+            19.528337870594605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286723,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 46.08,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91521984733927,
+            19.55610199218965
+          ],
+          [
+            -96.91544522649771,
+            19.556460773281607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289510,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 107.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90317792468788,
+            19.562716035357926
+          ],
+          [
+            -96.90383534189041,
+            19.563063518898915
+          ],
+          [
+            -96.9039332209117,
+            19.563117964717083
+          ],
+          [
+            -96.90398233255495,
+            19.56313186200606
+          ],
+          [
+            -96.904052823717,
+            19.563126017881547
+          ],
+          [
+            -96.90407796472127,
+            19.563099990953138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272638,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 84.77,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87172904335023,
+            19.509989004238577
+          ],
+          [
+            -96.872076510845,
+            19.510170269794514
+          ],
+          [
+            -96.87241399824514,
+            19.510396769730256
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272431,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 165.52,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8699754827849,
+            19.509083941004693
+          ],
+          [
+            -96.87062465026148,
+            19.509426937368435
+          ],
+          [
+            -96.8711271665153,
+            19.509677331112282
+          ],
+          [
+            -96.87136504162557,
+            19.509800188410036
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272217,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 19.43,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.86982049361809,
+            19.50898689265466
+          ],
+          [
+            -96.8699754827849,
+            19.509083941004693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4288907,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BALANCN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 61.1,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91256949351018,
+            19.561876126132077
+          ],
+          [
+            -96.91262152450585,
+            19.561837269411342
+          ],
+          [
+            -96.91302760652565,
+            19.561532596018907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290003,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 138.11,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90211641253552,
+            19.564568737059147
+          ],
+          [
+            -96.90239460003082,
+            19.564159536470736
+          ],
+          [
+            -96.90276523825561,
+            19.56348030957242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289514,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 105.85,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90704066457543,
+            19.563244556168833
+          ],
+          [
+            -96.908052163878,
+            19.563216336043666
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282363,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 65.79,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9102345434632,
+            19.545724949786546
+          ],
+          [
+            -96.91049012193862,
+            19.546269654820495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4119312,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "PAVIMENTADA",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "4",
+        "CONDICION": "EN OPERACION",
+        "ORIGEN": "TOPO50K",
+        "CALI_REPR": "DEFINIDA",
+        "CVEGEO": "N/A",
+        "NOMVIAL": "N/A",
+        "SENTIDO": "N/A",
+        "LONGITUD": 12.69,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.85930806106275,
+            19.50796368478076
+          ],
+          [
+            -96.85918915460623,
+            19.507986372861346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277643,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 143.55,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90080175576857,
+            19.52978637660218
+          ],
+          [
+            -96.90176312145323,
+            19.53028489348082
+          ],
+          [
+            -96.90200194379992,
+            19.530416453791055
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4119314,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "PAVIMENTADA",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "4",
+        "CONDICION": "EN OPERACION",
+        "ORIGEN": "TOPO50K",
+        "CALI_REPR": "DEFINIDA",
+        "CVEGEO": "N/A",
+        "NOMVIAL": "N/A",
+        "SENTIDO": "N/A",
+        "LONGITUD": 392.66,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8629730911327,
+            19.507223536604222
+          ],
+          [
+            -96.86242231096819,
+            19.50727793522446
+          ],
+          [
+            -96.86229824907635,
+            19.507294529057226
+          ],
+          [
+            -96.86204993567458,
+            19.50734580977251
+          ],
+          [
+            -96.8619257799456,
+            19.507371435053756
+          ],
+          [
+            -96.8618014988849,
+            19.50740609182127
+          ],
+          [
+            -96.86167731055235,
+            19.5074317167023
+          ],
+          [
+            -96.86156268567662,
+            19.507457467061723
+          ],
+          [
+            -96.86106603012401,
+            19.50755996673205
+          ],
+          [
+            -96.86070293572854,
+            19.507645997631748
+          ],
+          [
+            -96.86058827986153,
+            19.50767174803095
+          ],
+          [
+            -96.86021578012068,
+            19.507748622582213
+          ],
+          [
+            -96.86010112407492,
+            19.507774372614993
+          ],
+          [
+            -96.85997696656405,
+            19.507799998087123
+          ],
+          [
+            -96.85985268553581,
+            19.50783465420751
+          ],
+          [
+            -96.85973806089578,
+            19.50786040413346
+          ],
+          [
+            -96.85930806106275,
+            19.50796368478076
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4287066,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 35.04,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91599333693001,
+            19.557082442188605
+          ],
+          [
+            -96.91623085814588,
+            19.55730636115112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289517,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 62.05,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90407796472127,
+            19.563099990953138
+          ],
+          [
+            -96.90409680729218,
+            19.563080484138
+          ],
+          [
+            -96.90431720942084,
+            19.563102274535538
+          ],
+          [
+            -96.9046490310488,
+            19.56318732877199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290612,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 37.64,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90026367820748,
+            19.566212056848663
+          ],
+          [
+            -96.89997361266214,
+            19.566413897922068
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275959,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 68.63,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89387735601754,
+            19.522281461212838
+          ],
+          [
+            -96.89326976552552,
+            19.522150766389544
+          ],
+          [
+            -96.89323770145025,
+            19.522143868911364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277687,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 37.58,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90200194379992,
+            19.530416453791055
+          ],
+          [
+            -96.90231736891403,
+            19.530579450511937
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272022,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 199.41,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8648241115874,
+            19.507476474500493
+          ],
+          [
+            -96.8649268371285,
+            19.507504012126372
+          ],
+          [
+            -96.86619201560445,
+            19.5078244695659
+          ],
+          [
+            -96.86650415139331,
+            19.507903715030242
+          ],
+          [
+            -96.86666455610987,
+            19.507944438132586
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280874,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 224.96,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90860847051076,
+            19.54231529494552
+          ],
+          [
+            -96.90836993527795,
+            19.541814171307273
+          ],
+          [
+            -96.9083325745909,
+            19.54173568231869
+          ],
+          [
+            -96.90828558499628,
+            19.54162622930934
+          ],
+          [
+            -96.90821196471906,
+            19.5414703220153
+          ],
+          [
+            -96.90796948572888,
+            19.54088773521991
+          ],
+          [
+            -96.90788194903189,
+            19.54060605925424
+          ],
+          [
+            -96.90785094938924,
+            19.54041470573991
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4273343,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 141.37,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8737938546458,
+            19.511475951592864
+          ],
+          [
+            -96.87410640909306,
+            19.511755213804953
+          ],
+          [
+            -96.87433619319692,
+            19.511969442798584
+          ],
+          [
+            -96.87456238034392,
+            19.51215023578669
+          ],
+          [
+            -96.8747448407706,
+            19.51238015005613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278515,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 32.17,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90590836666016,
+            19.53248023919344
+          ],
+          [
+            -96.90618394102685,
+            19.532609563943556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281923,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 178.32,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90987736860271,
+            19.544975622263955
+          ],
+          [
+            -96.90984912943743,
+            19.544915236146057
+          ],
+          [
+            -96.90918657712884,
+            19.543498467160884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274257,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 177.47,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89387735601754,
+            19.522281461212838
+          ],
+          [
+            -96.89406790738921,
+            19.522370662936208
+          ],
+          [
+            -96.89443873044027,
+            19.522569145930923
+          ],
+          [
+            -96.89494036086286,
+            19.522971720803024
+          ],
+          [
+            -96.8952453453693,
+            19.523217847828544
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272451,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 14.81,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87136504162557,
+            19.509800188410036
+          ],
+          [
+            -96.87148936147095,
+            19.509864396192935
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285450,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 82.12,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91370481431343,
+            19.553039221026424
+          ],
+          [
+            -96.9140234009593,
+            19.553719327703277
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289545,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 25.29,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9046490310488,
+            19.56318732877199
+          ],
+          [
+            -96.90487740124672,
+            19.563262671578666
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4119924,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "PAVIMENTADA",
+        "NUMERO": "NINGUNO",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "ESTATAL",
+        "NUME_CARR": "2",
+        "CONDICION": "EN OPERACION",
+        "ORIGEN": "TOPO50K",
+        "CALI_REPR": "DEFINIDA",
+        "CVEGEO": "N/A",
+        "NOMVIAL": "N/A",
+        "SENTIDO": "N/A",
+        "LONGITUD": 770.99,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.85868187428095,
+            19.508498217267455
+          ],
+          [
+            -96.85867081141014,
+            19.508615497683948
+          ],
+          [
+            -96.85852996711301,
+            19.509182873453625
+          ],
+          [
+            -96.85836949876352,
+            19.50979515406682
+          ],
+          [
+            -96.85831999876146,
+            19.509939091870113
+          ],
+          [
+            -96.85828021707385,
+            19.51006505995657
+          ],
+          [
+            -96.85822165518316,
+            19.510172748250678
+          ],
+          [
+            -96.85810627990934,
+            19.510252685031936
+          ],
+          [
+            -96.8579721236733,
+            19.51031431014141
+          ],
+          [
+            -96.85783784155518,
+            19.510384997569425
+          ],
+          [
+            -96.85770365539508,
+            19.510446623253827
+          ],
+          [
+            -96.85762615481913,
+            19.510545060188893
+          ],
+          [
+            -96.85758653010373,
+            19.510662029389817
+          ],
+          [
+            -96.85757534174253,
+            19.510788309928927
+          ],
+          [
+            -96.85761190460548,
+            19.510906185082266
+          ],
+          [
+            -96.85765809205068,
+            19.511015123231672
+          ],
+          [
+            -96.85776949940868,
+            19.511233217099967
+          ],
+          [
+            -96.85782534224847,
+            19.51133321744465
+          ],
+          [
+            -96.85789059192271,
+            19.511442373238815
+          ],
+          [
+            -96.85796521688505,
+            19.51156068521274
+          ],
+          [
+            -96.85803999902947,
+            19.51166996661038
+          ],
+          [
+            -96.85812415480363,
+            19.511788373286798
+          ],
+          [
+            -96.85819881075194,
+            19.511906685324128
+          ],
+          [
+            -96.85832881118522,
+            19.512161123303162
+          ],
+          [
+            -96.85838428024671,
+            19.512288216695435
+          ],
+          [
+            -96.85843012385612,
+            19.512424248031767
+          ],
+          [
+            -96.85843749859602,
+            19.512586934747393
+          ],
+          [
+            -96.85841631068914,
+            19.512749247636243
+          ],
+          [
+            -96.85838631064672,
+            19.51285727934637
+          ],
+          [
+            -96.85833728004604,
+            19.512965091817907
+          ],
+          [
+            -96.85826940481674,
+            19.513054623164777
+          ],
+          [
+            -96.85816346672706,
+            19.513143685072997
+          ],
+          [
+            -96.85806715481284,
+            19.513223841647978
+          ],
+          [
+            -96.85796118583129,
+            19.513312904202728
+          ],
+          [
+            -96.85787452993273,
+            19.5133841228774
+          ],
+          [
+            -96.85768190534384,
+            19.513544434741828
+          ],
+          [
+            -96.85759509203314,
+            19.513624684753715
+          ],
+          [
+            -96.85730652966771,
+            19.513838060192665
+          ],
+          [
+            -96.85709534214178,
+            19.51396199798761
+          ],
+          [
+            -96.8569896240906,
+            19.514032997573096
+          ],
+          [
+            -96.8568743741872,
+            19.514103904043722
+          ],
+          [
+            -96.85676865492108,
+            19.514174904358775
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289548,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 108.73,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90600368466316,
+            19.563311962605287
+          ],
+          [
+            -96.90704066457543,
+            19.563244556168833
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282962,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 173.9,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91064453314904,
+            19.54659691233265
+          ],
+          [
+            -96.91134266974932,
+            19.548026995902518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289281,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DIVISIN DEL NORTE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 85.04,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91437134266674,
+            19.56241707167222
+          ],
+          [
+            -96.91509217178861,
+            19.56277339803736
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290986,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "MAGDOMIA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 33.93,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90037055768802,
+            19.567529824842843
+          ],
+          [
+            -96.9001371363594,
+            19.567743321960947
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4288943,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DIVISIN DEL NORTE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 85.96,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91302760652565,
+            19.561532596018907
+          ],
+          [
+            -96.91322231267844,
+            19.561705363868867
+          ],
+          [
+            -96.91345797052414,
+            19.561906001057697
+          ],
+          [
+            -96.91366698827765,
+            19.562014497963762
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286795,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 24.13,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91544522649771,
+            19.556460773281607
+          ],
+          [
+            -96.9155820998042,
+            19.556636791911753
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281309,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 91.85,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90881920867618,
+            19.542742565509347
+          ],
+          [
+            -96.90918657712884,
+            19.543498467160884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272968,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 138.6,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87273871185774,
+            19.510718952507553
+          ],
+          [
+            -96.87282570263794,
+            19.510801804580623
+          ],
+          [
+            -96.87330522215187,
+            19.511140223960297
+          ],
+          [
+            -96.8737938546458,
+            19.511475951592864
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289295,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BALANCN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 70.15,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91159401387965,
+            19.562725806133088
+          ],
+          [
+            -96.91207132205618,
+            19.56227927187227
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289296,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO SAMARIA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 127.87,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91053913193309,
+            19.56215328592242
+          ],
+          [
+            -96.91086894118463,
+            19.562321681443848
+          ],
+          [
+            -96.91140285347608,
+            19.56256582746455
+          ],
+          [
+            -96.91159401387965,
+            19.562725806133088
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277737,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 33.99,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90231736891403,
+            19.530579450511937
+          ],
+          [
+            -96.90260006257166,
+            19.530731217337603
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278031,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 43.45,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9079114651578,
+            19.536082741775015
+          ],
+          [
+            -96.90793187929988,
+            19.53577742211164
+          ],
+          [
+            -96.90793766327195,
+            19.53568976456487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278269,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 37.72,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90461598679711,
+            19.53179113754146
+          ],
+          [
+            -96.90493214058858,
+            19.531955370163033
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289565,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 68.92,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90534785678608,
+            19.56336142196447
+          ],
+          [
+            -96.90569836324867,
+            19.563352232157783
+          ],
+          [
+            -96.90600368466316,
+            19.563311962605287
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289300,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "ENRIQUE HERNNDEZ CASTILLO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 140.3,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91528112041895,
+            19.562865349628627
+          ],
+          [
+            -96.91535497101904,
+            19.562500788291537
+          ],
+          [
+            -96.91550750096613,
+            19.56161233282317
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4288955,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 30.05,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90960681713908,
+            19.56171919486104
+          ],
+          [
+            -96.90937995889026,
+            19.56188623846722
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285839,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 81.4,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9140234009593,
+            19.553719327703277
+          ],
+          [
+            -96.91434474231295,
+            19.554391134308784
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289566,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 50.57,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90487740124672,
+            19.563262671578666
+          ],
+          [
+            -96.9052383346693,
+            19.563354645149563
+          ],
+          [
+            -96.90534785678608,
+            19.56336142196447
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289301,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DIVISIN DEL NORTE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 22.21,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91509217178861,
+            19.56277339803736
+          ],
+          [
+            -96.91528112041895,
+            19.562865349628627
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274850,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 161.6,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88075505797556,
+            19.516976451896106
+          ],
+          [
+            -96.88106486737341,
+            19.517375700885307
+          ],
+          [
+            -96.88149786225003,
+            19.517764383569585
+          ],
+          [
+            -96.88185630124623,
+            19.517981401382695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272492,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 28.6,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87148936147095,
+            19.509864396192935
+          ],
+          [
+            -96.87157159146231,
+            19.50990686587458
+          ],
+          [
+            -96.87172904335023,
+            19.509989004238577
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276962,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 84.89,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8976745754572,
+            19.526497833874885
+          ],
+          [
+            -96.89783748714255,
+            19.52680839038083
+          ],
+          [
+            -96.89804835179415,
+            19.527180517161373
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278558,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 22.75,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90618394102685,
+            19.532609563943556
+          ],
+          [
+            -96.906371111934,
+            19.532714507098948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281967,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 17.55,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90994970021507,
+            19.54511731512107
+          ],
+          [
+            -96.90993693440221,
+            19.545107678856965
+          ],
+          [
+            -96.90987736860271,
+            19.544975622263955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278291,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 3.03,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90493214058858,
+            19.531955370163033
+          ],
+          [
+            -96.90495074714919,
+            19.531976507176168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279262,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 65.86,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90794733383284,
+            19.535093008542276
+          ],
+          [
+            -96.90793766327195,
+            19.53568976456487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282206,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 73.38,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90994970021507,
+            19.54511731512107
+          ],
+          [
+            -96.9102345434632,
+            19.545724949786546
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272750,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 49.18,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87241399824514,
+            19.510396769730256
+          ],
+          [
+            -96.87273871185774,
+            19.510718952507553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277420,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 191.39,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89871715786516,
+            19.528337870594605
+          ],
+          [
+            -96.89910320825767,
+            19.52875446500852
+          ],
+          [
+            -96.89958714511337,
+            19.529128418983813
+          ],
+          [
+            -96.90012006693965,
+            19.529428648595438
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275450,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 221.81,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88230837481366,
+            19.518315738866452
+          ],
+          [
+            -96.88291358562019,
+            19.518817629629716
+          ],
+          [
+            -96.88367600483238,
+            19.519834347276966
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4120101,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "PAVIMENTADA",
+        "NUMERO": "NINGUNO",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "ESTATAL",
+        "NUME_CARR": "2",
+        "CONDICION": "EN OPERACION",
+        "ORIGEN": "TOPO50K",
+        "CALI_REPR": "DEFINIDA",
+        "CVEGEO": "N/A",
+        "NOMVIAL": "N/A",
+        "SENTIDO": "N/A",
+        "LONGITUD": 77.79,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.85918915460623,
+            19.507986372861346
+          ],
+          [
+            -96.85908759171326,
+            19.508069467154968
+          ],
+          [
+            -96.85899128015178,
+            19.508149622837443
+          ],
+          [
+            -96.85887543599662,
+            19.508265653905216
+          ],
+          [
+            -96.85876890501517,
+            19.50839990379148
+          ],
+          [
+            -96.85868187428095,
+            19.508498217267455
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4287705,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "ENRIQUE HERNNDEZ CASTILLO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 153.36,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91600145925142,
+            19.558678902913552
+          ],
+          [
+            -96.91623085814588,
+            19.55730636115112
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274971,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 60.1,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88185630124623,
+            19.517981401382695
+          ],
+          [
+            -96.88216168378965,
+            19.518187076975366
+          ],
+          [
+            -96.88230837481366,
+            19.518315738866452
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290511,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 36.5,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90080244072898,
+            19.56586179489705
+          ],
+          [
+            -96.90051018725845,
+            19.566042605261543
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4273836,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 234.36,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8747448407706,
+            19.51238015005613
+          ],
+          [
+            -96.87496020139118,
+            19.512546508496218
+          ],
+          [
+            -96.87563180442291,
+            19.513395740723716
+          ],
+          [
+            -96.87621781167566,
+            19.513969461028246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272095,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 204.42,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.86666455610987,
+            19.507944438132586
+          ],
+          [
+            -96.86786221259972,
+            19.508322687209958
+          ],
+          [
+            -96.86852547425259,
+            19.50850655324889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286554,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 83.08,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91485525949525,
+            19.555433801686274
+          ],
+          [
+            -96.91499049336947,
+            19.55571220125546
+          ],
+          [
+            -96.91521984733927,
+            19.55610199218965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290690,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 40.55,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89997361266214,
+            19.566413897922068
+          ],
+          [
+            -96.89966099840791,
+            19.566631278146254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4288774,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "ENRIQUE HERNNDEZ CASTILLO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 152.65,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91550750096613,
+            19.56161233282317
+          ],
+          [
+            -96.91575110779331,
+            19.560248467751652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277802,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 41.81,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90260006257166,
+            19.530731217337603
+          ],
+          [
+            -96.90261444478209,
+            19.530739777993027
+          ],
+          [
+            -96.90269752870142,
+            19.530789204024693
+          ],
+          [
+            -96.90272713739645,
+            19.530804544948076
+          ],
+          [
+            -96.90294721064285,
+            19.530918599300314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4273856,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 20.09,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87621781167566,
+            19.513969461028246
+          ],
+          [
+            -96.87634609468776,
+            19.514104891253787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272103,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 6.29,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.86852547425259,
+            19.50850655324889
+          ],
+          [
+            -96.86858325453778,
+            19.50852237371692
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4288299,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "ENRIQUE HERNNDEZ CASTILLO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 175.18,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91575110779331,
+            19.560248467751652
+          ],
+          [
+            -96.91600145925142,
+            19.558678902913552
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289626,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 94.75,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90276523825561,
+            19.56348030957242
+          ],
+          [
+            -96.90317792468788,
+            19.562716035357926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282479,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 39.56,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91049012193862,
+            19.546269654820495
+          ],
+          [
+            -96.91064453314904,
+            19.54659691233265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276710,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 119.15,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89691536231105,
+            19.52498059454548
+          ],
+          [
+            -96.8972290708118,
+            19.5256407616762
+          ],
+          [
+            -96.89739427620661,
+            19.52596003739064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289387,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 83.44,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90901453414169,
+            19.5622041372494
+          ],
+          [
+            -96.90890110129907,
+            19.562328092449285
+          ],
+          [
+            -96.9086349933569,
+            19.562863678558507
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278330,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 26.79,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90495074714919,
+            19.531976507176168
+          ],
+          [
+            -96.90517189849999,
+            19.532098966938808
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289023,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO SAMARIA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 108.66,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90960681713908,
+            19.56171919486104
+          ],
+          [
+            -96.91044506274471,
+            19.5621052544011
+          ],
+          [
+            -96.91053913193309,
+            19.56215328592242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4277486,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 81.53,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90012006693965,
+            19.529428648595438
+          ],
+          [
+            -96.90044698385243,
+            19.529595812209696
+          ],
+          [
+            -96.90080175576857,
+            19.52978637660218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279308,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 5.52,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9079114651578,
+            19.536082741775015
+          ],
+          [
+            -96.907913295018,
+            19.536132814340537
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285183,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 236.02,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9127659425642,
+            19.551094533014446
+          ],
+          [
+            -96.9128158730171,
+            19.5511944661914
+          ],
+          [
+            -96.91370481431343,
+            19.553039221026424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290377,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 44.69,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90144160257955,
+            19.565726088209274
+          ],
+          [
+            -96.90162464649659,
+            19.565360144593654
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290378,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 30.94,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90144160257955,
+            19.565726088209274
+          ],
+          [
+            -96.90115342966071,
+            19.565662861439524
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278377,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 21.35,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90517189849999,
+            19.532098966938808
+          ],
+          [
+            -96.90534810560575,
+            19.53219653872267
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290384,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 13.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90115342966071,
+            19.565662861439524
+          ],
+          [
+            -96.9010460064391,
+            19.56572687622601
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286308,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 126.85,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91434474231295,
+            19.554391134308784
+          ],
+          [
+            -96.91445047863576,
+            19.554606061311055
+          ],
+          [
+            -96.91481283683036,
+            19.555343618083477
+          ],
+          [
+            -96.91485525949525,
+            19.555433801686274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275549,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 86.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88367600483238,
+            19.519834347276966
+          ],
+          [
+            -96.88411081022277,
+            19.52016193540157
+          ],
+          [
+            -96.88436121443087,
+            19.520255376050617
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290550,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BUGAMBILIAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 31.85,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90051018725845,
+            19.566042605261543
+          ],
+          [
+            -96.90026367820748,
+            19.566212056848663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286956,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 65.34,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9155820998042,
+            19.556636791911753
+          ],
+          [
+            -96.91599333693001,
+            19.557082442188605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279092,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 94.81,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90795345026211,
+            19.534948384413916
+          ],
+          [
+            -96.90785241129376,
+            19.534794232044625
+          ],
+          [
+            -96.90757565407891,
+            19.534169417647558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289053,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "BALANCN",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 68.52,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91207132205618,
+            19.56227927187227
+          ],
+          [
+            -96.91208438377028,
+            19.562267051811908
+          ],
+          [
+            -96.91256949351018,
+            19.561876126132077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276765,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 35.8,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89739427620661,
+            19.52596003739064
+          ],
+          [
+            -96.89743571112427,
+            19.52628211491204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281012,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 52.05,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90860847051076,
+            19.54231529494552
+          ],
+          [
+            -96.90881920867618,
+            19.542742565509347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274065,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 263.84,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87634609468776,
+            19.514104891253787
+          ],
+          [
+            -96.8767223361863,
+            19.51441371903314
+          ],
+          [
+            -96.87705436890965,
+            19.514606227143233
+          ],
+          [
+            -96.87740843109343,
+            19.514722144615117
+          ],
+          [
+            -96.8786054368939,
+            19.515094757467594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274563,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 148.79,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.87998520774465,
+            19.51563304720264
+          ],
+          [
+            -96.88021599438034,
+            19.515964282156904
+          ],
+          [
+            -96.8806671604553,
+            19.516813906841215
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289063,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 51.88,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90937995889026,
+            19.56188623846722
+          ],
+          [
+            -96.90901453414169,
+            19.5622041372494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278400,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 21.35,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90534810560575,
+            19.53219653872267
+          ],
+          [
+            -96.9055243129304,
+            19.53229411121712
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290070,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 25.93,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90198467444597,
+            19.564767805798972
+          ],
+          [
+            -96.90211641253552,
+            19.564568737059147
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283886,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 93.68,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91187723277062,
+            19.54920646420681
+          ],
+          [
+            -96.91223225082052,
+            19.54998578868065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290743,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CEDROS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 25.76,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89966099840791,
+            19.566631278146254
+          ],
+          [
+            -96.89979694773199,
+            19.566825925186738
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290239,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 63.64,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90162464649659,
+            19.565360144593654
+          ],
+          [
+            -96.90191436025016,
+            19.56485304691426
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274611,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 20.15,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8806671604553,
+            19.516813906841215
+          ],
+          [
+            -96.88075505797556,
+            19.516976451896106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278432,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 24.27,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9055243129304,
+            19.53229411121712
+          ],
+          [
+            -96.90573459658654,
+            19.532387129437208
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279129,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 15.97,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90794733383284,
+            19.535093008542276
+          ],
+          [
+            -96.90795345026211,
+            19.534948384413916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289076,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "DIVISIN DEL NORTE",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 86.06,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91366698827765,
+            19.562014497963762
+          ],
+          [
+            -96.91384562615107,
+            19.56210722435745
+          ],
+          [
+            -96.91437134266674,
+            19.56241707167222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275884,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 652.96,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88602366006883,
+            19.520634458272635
+          ],
+          [
+            -96.88899817268998,
+            19.521405060745685
+          ],
+          [
+            -96.89209948978686,
+            19.521962145595822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275584,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 63.28,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88436121443087,
+            19.520255376050617
+          ],
+          [
+            -96.88450212559422,
+            19.520307958055433
+          ],
+          [
+            -96.88494594072218,
+            19.52039583093607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290928,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CEDROS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 98.15,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89979694773199,
+            19.566825925186738
+          ],
+          [
+            -96.90037055768802,
+            19.567529824842843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280417,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 439.18,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90785094938924,
+            19.54041470573991
+          ],
+          [
+            -96.90784800730101,
+            19.540295021581912
+          ],
+          [
+            -96.9078210710305,
+            19.53963397686618
+          ],
+          [
+            -96.90789805289182,
+            19.53643652121478
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278688,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 89.18,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.906371111934,
+            19.532714507098948
+          ],
+          [
+            -96.90706245391127,
+            19.533187194934875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275897,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 49.53,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89209948978686,
+            19.521962145595822
+          ],
+          [
+            -96.89248846534292,
+            19.522032571364715
+          ],
+          [
+            -96.89256428509896,
+            19.52204724120674
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276486,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 265.08,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8952453453693,
+            19.523217847828544
+          ],
+          [
+            -96.8962105519979,
+            19.52397846879559
+          ],
+          [
+            -96.8964583436978,
+            19.52422541559145
+          ],
+          [
+            -96.89669319875185,
+            19.524585020557968
+          ],
+          [
+            -96.89691536231105,
+            19.52498059454548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272183,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 125.85,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.86970421662967,
+            19.508924560327966
+          ],
+          [
+            -96.86947066677024,
+            19.508799360225723
+          ],
+          [
+            -96.86913075449947,
+            19.508688834844218
+          ],
+          [
+            -96.8687112563398,
+            19.508560788050918
+          ],
+          [
+            -96.86858325453778,
+            19.50852237371692
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4271983,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 196.95,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8648241115874,
+            19.507476474500493
+          ],
+          [
+            -96.86476540284666,
+            19.507457158487973
+          ],
+          [
+            -96.86423640380048,
+            19.50732156991722
+          ],
+          [
+            -96.86382421707681,
+            19.507244591003154
+          ],
+          [
+            -96.86344428507218,
+            19.507224183050983
+          ],
+          [
+            -96.8629730911327,
+            19.507223536604222
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279380,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 33.55,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.907913295018,
+            19.536132814340537
+          ],
+          [
+            -96.90789805289182,
+            19.53643652121478
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4276813,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 34.51,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89743571112427,
+            19.52628211491204
+          ],
+          [
+            -96.8976745754572,
+            19.526497833874885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4290096,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "CAMINO ANTIGUO A NAOLINCO",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 11.94,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90191436025016,
+            19.56485304691426
+          ],
+          [
+            -96.90198467444597,
+            19.564767805798972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278928,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 107.23,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90704951568513,
+            19.533335555747087
+          ],
+          [
+            -96.90757565407891,
+            19.534169417647558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289495,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 42.39,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9086349933569,
+            19.562863678558507
+          ],
+          [
+            -96.90846349144739,
+            19.56321177898596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283595,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 141.67,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91134266974932,
+            19.548026995902518
+          ],
+          [
+            -96.91187723277062,
+            19.54920646420681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4289496,
+        "TIPOVIA": "CALLE",
+        "TIPO": "N/A",
+        "NUMERO": "N/A",
+        "DERE_TRAN": "N/A",
+        "ADMINISTRA": "N/A",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "RO TECOLUTLA",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 43.03,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.908052163878,
+            19.563216336043666
+          ],
+          [
+            -96.90846349144739,
+            19.56321177898596
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278469,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 20.88,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.90573459658654,
+            19.532387129437208
+          ],
+          [
+            -96.90590836666016,
+            19.53248023919344
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275622,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 115.82,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.88494594072218,
+            19.52039583093607
+          ],
+          [
+            -96.88514581448749,
+            19.520447614508527
+          ],
+          [
+            -96.88602366006883,
+            19.520634458272635
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4274180,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 158,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.8786054368939,
+            19.515094757467594
+          ],
+          [
+            -96.87977163718337,
+            19.51545777033348
+          ],
+          [
+            -96.87998520774465,
+            19.51563304720264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4272199,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 13.97,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.86970421662967,
+            19.508924560327966
+          ],
+          [
+            -96.86982049361809,
+            19.50898689265466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284472,
+        "TIPOVIA": "AVENIDA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "LZARO CRDENAS",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 134.5,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91223225082052,
+            19.54998578868065
+          ],
+          [
+            -96.91272405399847,
+            19.551001115702643
+          ],
+          [
+            -96.9127659425642,
+            19.551094533014446
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4275928,
+        "TIPOVIA": "CARRETERA",
+        "TIPO": "N/A",
+        "NUMERO": "140",
+        "DERE_TRAN": "LIBRE",
+        "ADMINISTRA": "FEDERAL",
+        "NUME_CARR": "N/A",
+        "CONDICION": "N/A",
+        "ORIGEN": "BCU",
+        "CALI_REPR": "N/A",
+        "CVEGEO": "300870001",
+        "NOMVIAL": "XALAPA VERACRUZ",
+        "SENTIDO": "UN SENTIDO",
+        "LONGITUD": 71.26,
+        "UNIDAD": "e30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.89256428509896,
+            19.52204724120674
+          ],
+          [
+            -96.89323770145025,
+            19.522143868911364
+          ]
+        ]
+      }
+    }
+  ]
+}

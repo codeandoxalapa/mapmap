@@ -1,0 +1,1941 @@
+{
+  "type": "FeatureCollection",
+  "id": "13979918",
+  "name": "Ruta 10003",
+  "desc": "Ruta Macuiltepetl, Miguel Alemn, Cerro de Macuiltepetl, Centro",
+  "notes": "El camion tenia una nota para los usuarios que a partir del 1 de enero del 2017 la ruta seria modificada  por partes",
+  "peak_am": "10",
+  "midday": "10",
+  "peak_pm": "10",
+  "night": "10",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281261,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92515835120017,
+            19.54394832901644
+          ],
+          [
+            -96.92518763235678,
+            19.543174625959036
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282904,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92572562840085,
+            19.54836656931838
+          ],
+          [
+            -96.92566961869812,
+            19.54792206590988
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284543,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9127659425642,
+            19.551094533014446
+          ],
+          [
+            -96.91231650557148,
+            19.55126519682573
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281272,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9276802484515,
+            19.544052500656846
+          ],
+          [
+            -96.92755161031064,
+            19.543952736795845
+          ],
+          [
+            -96.92749902323376,
+            19.543904166840193
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280267,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92628070172863,
+            19.540386826061617
+          ],
+          [
+            -96.92612322566427,
+            19.540363023164073
+          ],
+          [
+            -96.92595425490627,
+            19.540351058329588
+          ],
+          [
+            -96.9257886024901,
+            19.540339203749422
+          ],
+          [
+            -96.92566981677749,
+            19.540319134932382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285791,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9235036564258,
+            19.554626231896115
+          ],
+          [
+            -96.92291855268687,
+            19.55454519177779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281281,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92778014029616,
+            19.544070901399596
+          ],
+          [
+            -96.9277602944513,
+            19.543698593196194
+          ],
+          [
+            -96.92746845051039,
+            19.54308052401619
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281282,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92778014029616,
+            19.544070901399596
+          ],
+          [
+            -96.9276802484515,
+            19.544052500656846
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284589,
+        "DSENTIDO": "DS",
+        "PRINFIN": "p"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91231650557148,
+            19.55126519682573
+          ],
+          [
+            -96.9120112593667,
+            19.55138584000374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279453,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92454778741912,
+            19.534806239273387
+          ],
+          [
+            -96.92453125805396,
+            19.536989320301814
+          ],
+          [
+            -96.92453518203297,
+            19.53728821025098
+          ],
+          [
+            -96.92457891165097,
+            19.53743363658262
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284594,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91430194974355,
+            19.550475842732695
+          ],
+          [
+            -96.9146621680833,
+            19.550740602397482
+          ],
+          [
+            -96.91479918870208,
+            19.550925768972817
+          ],
+          [
+            -96.9151614621232,
+            19.551412353319364
+          ],
+          [
+            -96.91525611990646,
+            19.55150344595128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279664,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92457891165097,
+            19.53743363658262
+          ],
+          [
+            -96.92463222244653,
+            19.53754512005312
+          ],
+          [
+            -96.92491934628241,
+            19.53822152445944
+          ],
+          [
+            -96.92497293937336,
+            19.53839476976941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280109,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92515133858926,
+            19.539078350118675
+          ],
+          [
+            -96.92529428760128,
+            19.53972247075484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280110,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92350706963065,
+            19.53703088446299
+          ],
+          [
+            -96.92370465621214,
+            19.537205332869128
+          ],
+          [
+            -96.92414545336437,
+            19.53790885552756
+          ],
+          [
+            -96.92448314574483,
+            19.538438651335944
+          ],
+          [
+            -96.92497295543843,
+            19.539238410836695
+          ],
+          [
+            -96.92529428760128,
+            19.53972247075484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281305,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92515898044076,
+            19.544026194835954
+          ],
+          [
+            -96.92515835120017,
+            19.54394832901644
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281123,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92721717573582,
+            19.543668900607155
+          ],
+          [
+            -96.9265705178082,
+            19.543330947239074
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285031,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91619111595335,
+            19.552667375251932
+          ],
+          [
+            -96.91620734194092,
+            19.552677356743867
+          ],
+          [
+            -96.91623517582626,
+            19.55271512347883
+          ],
+          [
+            -96.91624331808785,
+            19.552726171507423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282636,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9256354820456,
+            19.547648539960484
+          ],
+          [
+            -96.92559196344861,
+            19.547292905638553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280492,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92625609681242,
+            19.541276978854786
+          ],
+          [
+            -96.92602533850524,
+            19.540924470515733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285466,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91873273598856,
+            19.553929298327397
+          ],
+          [
+            -96.91781560414466,
+            19.55378544162901
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284128,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.926505352481,
+            19.55106029578017
+          ],
+          [
+            -96.92657682828849,
+            19.549499840752553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280906,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92746845051039,
+            19.54308052401619
+          ],
+          [
+            -96.92717605086415,
+            19.542605299947695
+          ],
+          [
+            -96.92700855843171,
+            19.542540867900843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282162,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9254480596455,
+            19.54611595643331
+          ],
+          [
+            -96.9253966419604,
+            19.545744573076067
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284144,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.926505352481,
+            19.55106029578017
+          ],
+          [
+            -96.92749512452603,
+            19.55113497528091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285849,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92407994223818,
+            19.554726576619693
+          ],
+          [
+            -96.9235036564258,
+            19.554626231896115
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285851,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92409618938724,
+            19.55472940592132
+          ],
+          [
+            -96.92407994223818,
+            19.554726576619693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284164,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92749512452603,
+            19.55113497528091
+          ],
+          [
+            -96.92850544784586,
+            19.55121039278969
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284169,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91430194974355,
+            19.550475842732695
+          ],
+          [
+            -96.9136911723017,
+            19.550721246524876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285519,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91972791952799,
+            19.554088938559904
+          ],
+          [
+            -96.91873273598856,
+            19.553929298327397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284679,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92850544784586,
+            19.55121039278969
+          ],
+          [
+            -96.92836092324843,
+            19.552082376259204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285889,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9246602838766,
+            19.55482455003436
+          ],
+          [
+            -96.92409618938724,
+            19.55472940592132
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285135,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92635589041647,
+            19.55334544554242
+          ],
+          [
+            -96.92539457061316,
+            19.553271410836995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285556,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92059523064262,
+            19.554200830068652
+          ],
+          [
+            -96.91972791952799,
+            19.554088938559904
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280953,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92704830439159,
+            19.54320053717962
+          ],
+          [
+            -96.9270450733521,
+            19.543148942514136
+          ],
+          [
+            -96.92700855843171,
+            19.542540867900843
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278818,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92449879541049,
+            19.532736016170105
+          ],
+          [
+            -96.92455466797875,
+            19.534328520212867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285918,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92539457061316,
+            19.553271410836995
+          ],
+          [
+            -96.92523107096561,
+            19.554895965226006
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282722,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92566961869812,
+            19.54792206590988
+          ],
+          [
+            -96.9256354820456,
+            19.547648539960484
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278820,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92349057152894,
+            19.534305262729738
+          ],
+          [
+            -96.92347330693812,
+            19.532772124140358
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285919,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92523107096561,
+            19.554895965226006
+          ],
+          [
+            -96.9246602838766,
+            19.55482455003436
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285149,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92729412523568,
+            19.5534174720948
+          ],
+          [
+            -96.92635589041647,
+            19.55334544554242
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280964,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92518763235678,
+            19.543174625959036
+          ],
+          [
+            -96.9252086988822,
+            19.542572965679412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282014,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9253966419604,
+            19.545744573076067
+          ],
+          [
+            -96.92525751613758,
+            19.544737666915204
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285167,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92836092324843,
+            19.552082376259204
+          ],
+          [
+            -96.92814505379415,
+            19.553480428241613
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285596,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9215442372259,
+            19.554328126628704
+          ],
+          [
+            -96.92059523064262,
+            19.554200830068652
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285168,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92814505379415,
+            19.553480428241613
+          ],
+          [
+            -96.92729412523568,
+            19.5534174720948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283437,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92589175261078,
+            19.5490629080334
+          ],
+          [
+            -96.92625751637513,
+            19.549296709191196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285959,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92607795210257,
+            19.555015171966282
+          ],
+          [
+            -96.92523107096561,
+            19.554895965226006
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278361,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92347330693812,
+            19.532772124140358
+          ],
+          [
+            -96.92448512708779,
+            19.532736109542423
+          ],
+          [
+            -96.92449879541049,
+            19.532736016170105
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280766,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92700855843171,
+            19.542540867900843
+          ],
+          [
+            -96.92625609681242,
+            19.541276978854786
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285632,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9215442372259,
+            19.554328126628704
+          ],
+          [
+            -96.92228134839463,
+            19.554431032755268
+          ],
+          [
+            -96.92230915335844,
+            19.554434914930095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280992,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92704830439159,
+            19.54320053717962
+          ],
+          [
+            -96.9269160425294,
+            19.54325110433971
+          ],
+          [
+            -96.92678782031177,
+            19.54328993836865
+          ],
+          [
+            -96.92671255537417,
+            19.543296080328773
+          ],
+          [
+            -96.9266480972501,
+            19.54327681764867
+          ],
+          [
+            -96.9265932723558,
+            19.54329433425331
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280993,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92567988636819,
+            19.542814260106145
+          ],
+          [
+            -96.92657860049486,
+            19.543286618425167
+          ],
+          [
+            -96.9265932723558,
+            19.54329433425331
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281203,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92749902323376,
+            19.543904166840193
+          ],
+          [
+            -96.92737619906879,
+            19.54379072552773
+          ],
+          [
+            -96.92721717573582,
+            19.543668900607155
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279975,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92525751613758,
+            19.544737666915204
+          ],
+          [
+            -96.92515898044076,
+            19.544026194835954
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285653,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92230915335844,
+            19.554434914930095
+          ],
+          [
+            -96.92235427209879,
+            19.55444307957518
+          ],
+          [
+            -96.92291855268687,
+            19.55454519177779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280194,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92529428760128,
+            19.53972247075484
+          ],
+          [
+            -96.92548459384899,
+            19.54001190070249
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280388,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92628070172863,
+            19.540386826061617
+          ],
+          [
+            -96.92622172843157,
+            19.540601804466018
+          ],
+          [
+            -96.92616920305534,
+            19.540771150875006
+          ],
+          [
+            -96.92602533850524,
+            19.540924470515733
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280389,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92602533850524,
+            19.540924470515733
+          ],
+          [
+            -96.9258665920072,
+            19.540654178455654
+          ],
+          [
+            -96.92566981677749,
+            19.540319134932382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285996,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92699467919296,
+            19.555122901547108
+          ],
+          [
+            -96.92607795210257,
+            19.555015171966282
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283147,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92577996538162,
+            19.548986604387693
+          ],
+          [
+            -96.92572562840085,
+            19.54836656931838
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286000,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92701821864004,
+            19.555126165559418
+          ],
+          [
+            -96.92699467919296,
+            19.555122901547108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283516,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92657682828849,
+            19.549499840752553
+          ],
+          [
+            -96.92625751637513,
+            19.549296709191196
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285254,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9164762590088,
+            19.553239416510138
+          ],
+          [
+            -96.91644492020657,
+            19.553164887699754
+          ],
+          [
+            -96.9163891499604,
+            19.553032254117806
+          ],
+          [
+            -96.91633974243018,
+            19.55288624208211
+          ],
+          [
+            -96.91624331808785,
+            19.552726171507423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284377,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91619111595335,
+            19.552667375251932
+          ],
+          [
+            -96.9161055085396,
+            19.55261471501649
+          ],
+          [
+            -96.9160120948865,
+            19.55252412981384
+          ],
+          [
+            -96.91580219807489,
+            19.552222135756978
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4283192,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92577996538162,
+            19.548986604387693
+          ],
+          [
+            -96.92589175261078,
+            19.5490629080334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286025,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92814505379415,
+            19.553480428241613
+          ],
+          [
+            -96.92791585710961,
+            19.555229860859725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4286026,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92791585710961,
+            19.555229860859725
+          ],
+          [
+            -96.92701821864004,
+            19.555126165559418
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284864,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91580219807489,
+            19.552222135756978
+          ],
+          [
+            -96.91569049418045,
+            19.55206797880359
+          ],
+          [
+            -96.91547841652086,
+            19.551734785916658
+          ],
+          [
+            -96.91525611990646,
+            19.55150344595128
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284395,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91661400346887,
+            19.553449907580074
+          ],
+          [
+            -96.9164762590088,
+            19.553239416510138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282317,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9255237277053,
+            19.546631778154907
+          ],
+          [
+            -96.9254480596455,
+            19.54611595643331
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280828,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9252086988822,
+            19.542572965679412
+          ],
+          [
+            -96.92525715553242,
+            19.542597776762783
+          ],
+          [
+            -96.92557887581056,
+            19.542762532282758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4282557,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92559196344861,
+            19.547292905638553
+          ],
+          [
+            -96.9255237277053,
+            19.546631778154907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285348,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91661400346887,
+            19.553449907580074
+          ],
+          [
+            -96.91672182515813,
+            19.553510453607277
+          ],
+          [
+            -96.91688108421529,
+            19.553599885077695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279822,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92497293937336,
+            19.53839476976941
+          ],
+          [
+            -96.92515133858926,
+            19.539078350118675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279142,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9234946918605,
+            19.5356885850058
+          ],
+          [
+            -96.92349057152894,
+            19.534305262729738
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4279393,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92350706963065,
+            19.53703088446299
+          ],
+          [
+            -96.9234946918605,
+            19.5356885850058
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285397,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9173970729944,
+            19.553713597298405
+          ],
+          [
+            -96.91688108421529,
+            19.553599885077695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4284471,
+        "DSENTIDO": "DS",
+        "PRINFIN": "F"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9136911723017,
+            19.550721246524876
+          ],
+          [
+            -96.9127659425642,
+            19.551094533014446
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280843,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92567988636819,
+            19.542814260106145
+          ],
+          [
+            -96.92557887581056,
+            19.542762532282758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4280254,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92548459384899,
+            19.54001190070249
+          ],
+          [
+            -96.92566981677749,
+            19.540319134932382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285403,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9175846061542,
+            19.55374102788199
+          ],
+          [
+            -96.9173970729944,
+            19.553713597298405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4285413,
+        "DSENTIDO": "DS",
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.91781560414466,
+            19.55378544162901
+          ],
+          [
+            -96.9175846061542,
+            19.55374102788199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4278953,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.92455466797875,
+            19.534328520212867
+          ],
+          [
+            -96.92454778741912,
+            19.534806239273387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4281010,
+        "DSENTIDO": null,
+        "PRINFIN": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -96.9265705178082,
+            19.543330947239074
+          ],
+          [
+            -96.9265932723558,
+            19.54329433425331
+          ]
+        ]
+      }
+    }
+  ]
+}

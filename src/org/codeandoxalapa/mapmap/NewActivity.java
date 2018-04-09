@@ -92,7 +92,7 @@ public class NewActivity extends Activity implements OnClickListener{
 		{
 			case R.id.btnCaptura:
 				
-				final CharSequence[] option = {"Tomar Foto", "Escoger desde galerÃ­a", "Cancelar"};
+				final CharSequence[] option = {"Tomar Foto", "Escoger desde galería", "Cancelar"};
 				final AlertDialog.Builder builder = new AlertDialog.Builder(this);
 				builder.setTitle("Selecciona una");
 				builder.setItems(option, new DialogInterface.OnClickListener() {
@@ -109,7 +109,7 @@ public class NewActivity extends Activity implements OnClickListener{
 							}
 							
 						}
-						else if(option[which]=="Escoger desde galerÃ­a")
+						else if(option[which]=="Escoger desde galería")
 						{
 							arr = routeImage.openGallery();
 							startActivityForResult( (Intent) arr[1], (Integer) arr[2] );
@@ -151,16 +151,7 @@ public class NewActivity extends Activity implements OnClickListener{
 		{
 			routeImage = routeImage.typeActionPhoto(requestCode, getBaseContext(), data);
 			
-			if(routeImage.path == null)
-			{
-				img.setImageBitmap(routeImage.bitmap);
-				//img.setImageResource(R.drawable.check);
-			}
-			else
-			{
-				img.setImageURI(routeImage.path);
-				//img.setImageResource(R.drawable.check);
-			}
+			img.setImageBitmap(routeImage.bitmap);
 		}
 	}
 

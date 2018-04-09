@@ -4,15 +4,19 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Base64;
+import android.util.Log;
 
 public class RouteImage {
 	
@@ -92,12 +96,15 @@ public class RouteImage {
     
     public RouteImage typeActionPhoto(int requestCode, Context context, Intent data)
     {
+    	byte[] imageBytes = null;
     	switch (requestCode)
 		{
 			case PHOTO_CODE:
 				this.path = null;
-				this.bitmap = BitmapFactory.decodeFile(this.mPath);
+				//this.bitmap = BitmapFactory.decodeFile(this.mPath);
 				this.pathImage = convertImage(this.mPath);
+				imageBytes = Base64.decode(this.pathImage, Base64.DEFAULT);
+				this.bitmap = decodeSampledBitmapFromByteArray(imageBytes, 100, 100);
 				this.typeAction = PHOTO_CODE;
 			break;
 			
@@ -106,6 +113,8 @@ public class RouteImage {
 				this.path = path;
 				String uri = getRealPathFromURI(context, path);
 				this.pathImage = convertImage(uri);
+				imageBytes = Base64.decode(this.pathImage, Base64.DEFAULT);
+				this.bitmap = decodeSampledBitmapFromByteArray(imageBytes, 100, 100);
 				this.typeAction = SELECT_PICTURE;
 			break;
 		}
@@ -117,23 +126,115 @@ public class RouteImage {
     {
 		File imagefile = new File(uri);
 		FileInputStream fis = null;
+		FileInputStream fis2 = null;
+		//ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        //Bitmap bitmap = null;
+        //byte[] imageBytes = null;
+        String encImage = "";
 		
 		try 
 		{
 		    fis = new FileInputStream(imagefile);
+		    fis2 = new FileInputStream(imagefile);
+		    /*bitmap = decodeSampledBitmapFromFileInputStream(fis, fis2,  null,800, 800);
+        	bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+        	imageBytes = baos.toByteArray();
+            encImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);*/
+		    encImage = encodeBytesStringToBase64(fis, fis2, 800, 800, 50);
 		} 
 		catch (FileNotFoundException e) 
 		{
 		    e.printStackTrace();
 		}
+		catch (OutOfMemoryError e)
+		{
+			e.printStackTrace();
+			encImage = encodeBytesStringToBase64(fis, fis2, 400, 400, 30);
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			Log.e("File Input Strem", e.getMessage());
+		}
 
-		Bitmap bm = BitmapFactory.decodeStream(fis);
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();  
-		bm.compress(Bitmap.CompressFormat.JPEG, 100 , baos);    
-		byte[] b = baos.toByteArray(); 
-		String encImage = Base64.encodeToString(b, Base64.DEFAULT);
+		//Bitmap bm = decodeSampledBitmapFromResource(fis, null, 100, 100); -> responde null
 		
+		// no puede realizar el proceso de compresion de una imagen de 7mb
+		//BitmapFactory.Options options = new BitmapFactory.Options();
+		//options.inSampleSize = 2;
+		// crea un bitmap a partir de un archivo de la galeria
+		//Bitmap bm = BitmapFactory.decodeStream(fis, null, options);
+		
+		//ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		// comprime baos
+		//bm.compress(Bitmap.CompressFormat.JPEG, 100 , baos);
+		// obtenemos el array de bytes comprimidos de baos
+		//byte[] b = baos.toByteArray();
+		// codifica la imagen en base 64 con el array de bytes comprimidos
+		//String encImage = Base64.encodeToString(b, Base64.DEFAULT);
+		Log.d("V", "Ubicación de la imagen o foto: "+uri);
+		Log.d("V", "tamaño de string base 64: "+ encImage.length());
 		return encImage;
     }
     
+    public String encodeBytesStringToBase64(FileInputStream fis, FileInputStream fis2, int reqWidth, int reqHeight, int bitmapCompressQuality){
+    	Bitmap bitmap = decodeSampledBitmapFromFileInputStream(fis, fis2,  null,reqWidth, reqHeight);
+	    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+		bitmap.compress(Bitmap.CompressFormat.JPEG, bitmapCompressQuality, baos);
+    	byte[] imageBytes = baos.toByteArray();
+        return Base64.encodeToString(imageBytes, Base64.DEFAULT);
+    }
+    
+    public static Bitmap decodeSampledBitmapFromFileInputStream(FileInputStream fis, FileInputStream fis2, Rect resId,
+            int reqWidth, int reqHeight) {
+
+        // First decode with inJustDecodeBounds=true to check dimensions
+        final BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true;
+        BitmapFactory.decodeStream(fis, resId, options);
+
+        // Calculate inSampleSize
+        options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
+
+        // Decode bitmap with inSampleSize set
+        options.inJustDecodeBounds = false;
+        return BitmapFactory.decodeStream(fis2, resId, options);
+    }
+    
+    public static Bitmap decodeSampledBitmapFromByteArray(byte[] data, int   reqWidth, int reqHeight) {
+
+	    // First decode with inJustDecodeBounds=true to check dimensions
+	    final BitmapFactory.Options options = new BitmapFactory.Options();
+	    options.inJustDecodeBounds = true;
+	    //options.inPurgeable = true; 
+	    BitmapFactory.decodeByteArray(data, 0, data.length, options);
+
+	    // Calculate inSampleSize
+	    options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
+
+	    // Decode bitmap with inSampleSize set
+	    options.inJustDecodeBounds = false;
+	    return BitmapFactory.decodeByteArray(data, 0, data.length, options);
+	}
+    
+    public static int calculateInSampleSize( BitmapFactory.Options options, int reqWidth, int reqHeight) {
+    	// Raw height and width of image
+    	final int height = options.outHeight;
+    	final int width = options.outWidth;
+    	int inSampleSize = 1;
+
+    	if (height > reqHeight || width > reqWidth) {
+
+    		final int halfHeight = height / 2;
+    		final int halfWidth = width / 2;
+
+    		// Calculate the largest inSampleSize value that is a power of 2 and keeps both
+    		// height and width larger than the requested height and width.
+    		while ((halfHeight / inSampleSize) >= reqHeight
+    				&& (halfWidth / inSampleSize) >= reqWidth) {
+    			inSampleSize *= 2;
+    		}
+    	}
+
+    	return inSampleSize;
+    }
 }

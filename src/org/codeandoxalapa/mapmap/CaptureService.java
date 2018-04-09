@@ -39,7 +39,7 @@ import android.provider.Settings.Secure;
 
 public class CaptureService extends Service {
 
-	public final static String 	SERVER 					= "transitwand.com"; // // "; //"192.168.43.137:9000";
+	public final static String 	SERVER 					= "10.0.2.2:9000"; // // "; //"192.168.43.137:9000"; //localhost:9000; //transitwand.com; // mapaton.org:9000; // 10.0.2.2:9000;
 	public final static String 	URL_BASE 				= "http://" + SERVER +"/";
 	
 	public static Boolean boundToService = false;

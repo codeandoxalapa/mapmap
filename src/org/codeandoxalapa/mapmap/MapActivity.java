@@ -135,10 +135,6 @@ public class MapActivity extends Activity {
 		RouteCapture rc = null;
 		try {
 			dataInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(f)));
-		
-		//	byte[] dataFrame = new byte[(int)f.length()];;
-			
-		//	dataInputStream.read(dataFrame);
 			
 			Upload.Route pbRouteData = Upload.Route.parseDelimitedFrom(dataInputStream);
 			
@@ -151,7 +147,10 @@ public class MapActivity extends Activity {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
+		} catch (Exception e) {
+	    	// TODO Auto-generated catch block
+			e.printStackTrace();
+	    } finally {
 			if(dataInputStream != null) {
 				try {
 					dataInputStream.close();
@@ -249,7 +248,7 @@ public class MapActivity extends Activity {
 							};
 	
 							AlertDialog.Builder builder = new AlertDialog.Builder(MapActivity.this);
-							builder.setMessage("Â¿Realmente quieres borrar esta ruta?").setPositiveButton("Si", dialogClickListener)
+							builder.setMessage("¿Realmente quieres borrar esta ruta?").setPositiveButton("Si", dialogClickListener)
 							    .setNegativeButton("No", dialogClickListener).show();
 							
 							break;
@@ -274,20 +273,6 @@ public class MapActivity extends Activity {
 			   notesText.setText(rc.notes);
 			 
 		}
-	    
-
-	   /* locOverlay = new MyLocationOverlay(this, mapView);
-	    locOverlay.enableMyLocation();
-	    locOverlay.enableFollowLocation();
-        
-	    mapView.getOverlays().add(locOverlay);
-	    
-        locOverlay.runOnFirstFix(new Runnable() {
-		 public void run() {
-			 mapView.getController().setCenter(locOverlay.getMyLocation());
-		 } 
-        });*/
-		
 		
 		mapView.setBuiltInZoomControls(true);
 		mapView.setMultiTouchControls(true);

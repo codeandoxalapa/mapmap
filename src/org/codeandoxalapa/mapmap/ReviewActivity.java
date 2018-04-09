@@ -62,25 +62,23 @@ public class ReviewActivity extends Activity {
 			
 			DataInputStream dataInputStream = null;
 			
-			try {
+			try 
+			{
 				dataInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(f)));
-			
-			//	byte[] dataFrame = new byte[(int)f.length()];;
-				
-			//	dataInputStream.read(dataFrame);
-				
 				Upload.Route pbRouteData = Upload.Route.parseDelimitedFrom(dataInputStream);
-				
 				RouteCapture rc = RouteCapture.deseralize(pbRouteData);
 				routes.add(rc);
-			
+
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} finally {
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+	    	} finally {
 				if(dataInputStream != null) {
 					try {
 						dataInputStream.close();

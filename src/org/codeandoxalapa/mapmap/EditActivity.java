@@ -75,7 +75,7 @@ public class EditActivity extends Activity {
 				case R.id.btnCaptura:
 					
 					Log.v("Edit", "Image");
-					final CharSequence[] option = {"Tomar Foto", "Escoger desde galerÃ­a", "Cancelar"};
+					final CharSequence[] option = {"Tomar Foto", "Escoger desde galería", "Cancelar"};
 					final AlertDialog.Builder builder = new AlertDialog.Builder(EditActivity.this);
 					builder.setTitle("Selecciona una");
 					builder.setItems(option, new DialogInterface.OnClickListener() {
@@ -92,7 +92,7 @@ public class EditActivity extends Activity {
 								}
 								
 							}
-							else if(option[which]=="Escoger desde galerÃ­a")
+							else if(option[which]=="Escoger desde galería")
 							{
 								arr = routeImage.openGallery();
 								startActivityForResult( (Intent) arr[1], (Integer) arr[2] );
@@ -154,7 +154,8 @@ public class EditActivity extends Activity {
 			   {
 				   //show imagen
 				   byte[] decodedString = Base64.decode(routeImage.pathImage, Base64.DEFAULT);
-				   Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
+				   //Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
+				   Bitmap decodedByte = RouteImage.decodeSampledBitmapFromByteArray(decodedString, 100, 100);
 				   imagenRoute.setImageBitmap(decodedByte);
 			   }
 			}
@@ -164,6 +165,9 @@ public class EditActivity extends Activity {
 			e.printStackTrace();
 	    } catch (IOException e) {
 			// TODO Auto-generated catch block
+			e.printStackTrace();
+	    } catch (Exception e) {
+	    	// TODO Auto-generated catch block
 			e.printStackTrace();
 	    } finally {
 			if(dataInputStream != null) {
@@ -186,16 +190,19 @@ public class EditActivity extends Activity {
 		{
 			routeImage = routeImage.typeActionPhoto(requestCode, getBaseContext(), data);
 			
-			if(routeImage.path == null)
+			img.setImageBitmap(routeImage.bitmap);
+			
+			/*if(routeImage.path == null)
 			{
 				img.setImageBitmap(routeImage.bitmap);
 				//img.setImageResource(R.drawable.check);
 			}
 			else
 			{
-				img.setImageURI(routeImage.path);
+				img.setImageBitmap(routeImage.bitmap);
+				//img.setImageURI(routeImage.path);
 				//img.setImageResource(R.drawable.check);
-			}
+			}*/
 			
 		}
 	}
@@ -240,7 +247,10 @@ public class EditActivity extends Activity {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		} finally {
+		} catch (Exception e) {
+	    	// TODO Auto-generated catch block
+			e.printStackTrace();
+	    } finally {
 			if(dataInputStreamEdit != null) {
 				try {
 					dataInputStreamEdit.close();

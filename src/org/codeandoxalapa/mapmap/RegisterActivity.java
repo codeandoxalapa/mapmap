@@ -116,33 +116,6 @@ public class RegisterActivity extends Activity {
 							public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
 						    	Toast.makeText(RegisterActivity.this, "Registro desabilitado, verifique su conexión a internet.", Toast.LENGTH_SHORT).show();
 						    }
-							
-							/*@Override
-							public void onSuccess(JSONObject response) {
-								
-						    	try {
-						    		String unitId = response.getString("unitId");
-						    		
-						    		Toast.makeText(RegisterActivity.this, "Teléfono Registrado.", Toast.LENGTH_SHORT).show();
-						    		
-						    		SharedPreferences prefsManager = PreferenceManager.getDefaultSharedPreferences(RegisterActivity.this);
-						    		prefsManager.edit().putBoolean("registered", true).putString("unitId", unitId).putString("userName", userName).commit();
-						    		
-						    		Intent uploadIntent = new Intent(RegisterActivity.this, UploadActivity.class);
-									startActivity(uploadIntent);
-									
-									RegisterActivity.this.finish();
-						    	}
-						    	catch(Exception e) {
-						    		
-						    		Toast.makeText(RegisterActivity.this, "Registro desabilitado, verifique su conexión a internet.", Toast.LENGTH_SHORT).show();
-						    	}
-						    }
-						    
-							@Override
-							public void onFailure(Throwable error, String content) {
-						    	Toast.makeText(RegisterActivity.this, "Registro desabilitado, verifique su conexión a internet.", Toast.LENGTH_SHORT).show();
-						    }*/
 						});	
 						
 						break;

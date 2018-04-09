@@ -37,7 +37,6 @@ public class NewActivity extends Activity implements OnClickListener{
         public void onServiceConnected(ComponentName name, IBinder service)
         {
         	captureService = ((CaptureService.CaptureServiceBinder) service).getService();
-        	//com.conveyal.transitwand.CaptureServiceaptureService.setServiceClient(CaptureActivity.this);
         }
     };
 	
@@ -54,12 +53,10 @@ public class NewActivity extends Activity implements OnClickListener{
 		 
         //BOTON CONTINUAR - CONTINUE BUTTON
         ImageButton wandButton = (ImageButton) findViewById(R.id.ContinueButton);
-        //Button wandButton = (Button) findViewById(R.id.ContinueButton);
         wandButton.setOnClickListener(this);
         
         //CREAR FOTOS - CREATE PHOTO
         ImageButton btn = (ImageButton) findViewById(R.id.btnCaptura);
-        //Button btn = (Button)findViewById(R.id.btnCaptura);
         btn.setOnClickListener(this);
 		img = (ImageView)findViewById(R.id.imagenBus);
 		routeImage = new RouteImage();

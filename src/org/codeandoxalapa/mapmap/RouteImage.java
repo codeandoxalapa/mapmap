@@ -101,7 +101,6 @@ public class RouteImage {
 		{
 			case PHOTO_CODE:
 				this.path = null;
-				//this.bitmap = BitmapFactory.decodeFile(this.mPath);
 				this.pathImage = convertImage(this.mPath);
 				imageBytes = Base64.decode(this.pathImage, Base64.DEFAULT);
 				this.bitmap = decodeSampledBitmapFromByteArray(imageBytes, 100, 100);
@@ -127,19 +126,12 @@ public class RouteImage {
 		File imagefile = new File(uri);
 		FileInputStream fis = null;
 		FileInputStream fis2 = null;
-		//ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        //Bitmap bitmap = null;
-        //byte[] imageBytes = null;
         String encImage = "";
 		
 		try 
 		{
 		    fis = new FileInputStream(imagefile);
 		    fis2 = new FileInputStream(imagefile);
-		    /*bitmap = decodeSampledBitmapFromFileInputStream(fis, fis2,  null,800, 800);
-        	bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
-        	imageBytes = baos.toByteArray();
-            encImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);*/
 		    encImage = encodeBytesStringToBase64(fis, fis2, 800, 800, 50);
 		} 
 		catch (FileNotFoundException e) 
@@ -155,22 +147,7 @@ public class RouteImage {
 			e.printStackTrace();
 			Log.e("File Input Strem", e.getMessage());
 		}
-
-		//Bitmap bm = decodeSampledBitmapFromResource(fis, null, 100, 100); -> responde null
 		
-		// no puede realizar el proceso de compresion de una imagen de 7mb
-		//BitmapFactory.Options options = new BitmapFactory.Options();
-		//options.inSampleSize = 2;
-		// crea un bitmap a partir de un archivo de la galeria
-		//Bitmap bm = BitmapFactory.decodeStream(fis, null, options);
-		
-		//ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		// comprime baos
-		//bm.compress(Bitmap.CompressFormat.JPEG, 100 , baos);
-		// obtenemos el array de bytes comprimidos de baos
-		//byte[] b = baos.toByteArray();
-		// codifica la imagen en base 64 con el array de bytes comprimidos
-		//String encImage = Base64.encodeToString(b, Base64.DEFAULT);
 		Log.d("V", "Ubicación de la imagen o foto: "+uri);
 		Log.d("V", "tamaño de string base 64: "+ encImage.length());
 		return encImage;

@@ -169,52 +169,10 @@ public class UploadActivity extends Activity {
 						client.setTimeout(240 * 1000);
 						client.setUserAgent("tw");
 						client.post(CaptureService.URL_BASE + "upload", params,  new AsyncHttpResponseHandler() {
-						    
-							/*@Override
-						    public void onSuccess(String response) {
-						    	
-						    	try {
-						    		
-						    		Toast.makeText(UploadActivity.this, "Data Mapatón cargada.", Toast.LENGTH_SHORT).show();
-									
-						    		 for(File f : getFilesDir().listFiles(fileNameFilter)) {
-						    			f.delete();
-						    		} 
-						    		
-									UploadActivity.this.finish();
-						    		
-						    	}
-						    	catch(Exception e) {		
-						    		
-						    		ProgressBar progressSpinner = (ProgressBar) findViewById(R.id.progressBar);
-									progressSpinner.setVisibility(View.GONE);
-							    	
-							    	ImageButton uploadButton = (ImageButton) findViewById(R.id.uploadButton);
-									uploadButton.setVisibility(View.VISIBLE);
-									
-						    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir información a TransitWand, revisa tu conexión a internet.", Toast.LENGTH_SHORT).show();
-						    	}
-						    }*/
-						    
-							/*@Override
-						    public void onFailure(Throwable error, String content) {
-						    	
-						    	Log.e("upload", "Upload failed: " + error + " " + content);
-						    
-						    	
-						    	ProgressBar progressSpinner = (ProgressBar) findViewById(R.id.progressBar);
-								progressSpinner.setVisibility(View.GONE);
-						    	
-						    	ImageButton uploadButton = (ImageButton) findViewById(R.id.uploadButton);
-								uploadButton.setVisibility(View.VISIBLE);
-								
-						    	Toast.makeText(UploadActivity.this, "Deshabilitado para subir información a TransitWand, revisa tu conexión a internet.", Toast.LENGTH_SHORT).show();
-						    }*/
-
+							
 							@Override
 							public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
 								// TODO Auto-generated method stub
-								//Log.e("upload", "Upload failed: " + error + " " + content);	
 						    	ProgressBar progressSpinner = (ProgressBar) findViewById(R.id.progressBar);
 								progressSpinner.setVisibility(View.GONE);
 						    	
@@ -314,29 +272,9 @@ public class UploadActivity extends Activity {
 		        headers[0] = (Header) new BasicHeader("Content-Type", "application/json");
 		    	
 				AsyncHttpClient client = new AsyncHttpClient();
-				//client.setTimeout(240 * 1000);
-				//client.setUserAgent("tw");
-				/*client.post(this, "https://mapaton.org/manage_img/post-img-route-stop-json.php", headers, params, 
-		        		RequestParams.APPLICATION_JSON, new AsyncHttpResponseHandler(){*/
-				client.post(this, "http://10.0.2.2/github/mapmap-backend/test-post-img-json-route-stop.php", headers, params, 
+				client.post(this, "https://mapaton.org/manage_img/post-img-route-stop-json.php", headers, params, 
 		        		RequestParams.APPLICATION_JSON, new AsyncHttpResponseHandler(){
-				//client.post("http://10.0.2.2/github/mapmap-backend/test-post-img.php", params,  new AsyncHttpResponseHandler() {
-				//client.post("https://mapaton.org/manage_img/post-img.php", params,  new AsyncHttpResponseHandler() {
-				    
-					/*@Override
-				    public void onSuccess(String response) {
-				    	
-				    	try {
-				    		
-				    		Toast.makeText(UploadActivity.this, "Data Mapatón cargada.", Toast.LENGTH_SHORT).show();
-							UploadActivity.this.finish();
-				    		
-				    	}
-				    	catch(Exception e) {
-				    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir información de Mapatón, revisa tu conexión a internet.", Toast.LENGTH_SHORT).show();
-				    	}
-				    }*/
-
+					
 					@Override
 					public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
 						// TODO Auto-generated method stub

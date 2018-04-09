@@ -154,7 +154,6 @@ public class EditActivity extends Activity {
 			   {
 				   //show imagen
 				   byte[] decodedString = Base64.decode(routeImage.pathImage, Base64.DEFAULT);
-				   //Bitmap decodedByte = BitmapFactory.decodeByteArray(decodedString, 0, decodedString.length);
 				   Bitmap decodedByte = RouteImage.decodeSampledBitmapFromByteArray(decodedString, 100, 100);
 				   imagenRoute.setImageBitmap(decodedByte);
 			   }
@@ -189,21 +188,7 @@ public class EditActivity extends Activity {
 		if(resultCode == Activity.RESULT_OK)
 		{
 			routeImage = routeImage.typeActionPhoto(requestCode, getBaseContext(), data);
-			
 			img.setImageBitmap(routeImage.bitmap);
-			
-			/*if(routeImage.path == null)
-			{
-				img.setImageBitmap(routeImage.bitmap);
-				//img.setImageResource(R.drawable.check);
-			}
-			else
-			{
-				img.setImageBitmap(routeImage.bitmap);
-				//img.setImageURI(routeImage.path);
-				//img.setImageResource(R.drawable.check);
-			}*/
-			
 		}
 	}
 	

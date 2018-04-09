@@ -11,8 +11,13 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.http.Header;
+import org.apache.http.message.BasicHeader;
+//import org.apache.http.Header;
 import org.codeandoxalapa.mapmap.R;
 import org.codeandoxalapa.mapmap.TransitWandProtos.Upload;
+
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
@@ -29,10 +34,12 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+//import cz.msebera.android.httpclient.Header;
 
 public class UploadActivity extends Activity {
 
 	private ByteArrayInputStream dataStream = null;
+	private int count = 0;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -162,20 +169,25 @@ public class UploadActivity extends Activity {
 						client.setTimeout(240 * 1000);
 						client.setUserAgent("tw");
 						client.post(CaptureService.URL_BASE + "upload", params,  new AsyncHttpResponseHandler() {
-						    
+							
 							@Override
-						    public void onSuccess(String response) {
+							public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+								// TODO Auto-generated method stub
+						    	ProgressBar progressSpinner = (ProgressBar) findViewById(R.id.progressBar);
+								progressSpinner.setVisibility(View.GONE);
 						    	
-						    	try {
-						    		
-						    		Toast.makeText(UploadActivity.this, "Data TransitWand cargada.", Toast.LENGTH_SHORT).show();
-									
-						    		 for(File f : getFilesDir().listFiles(fileNameFilter)) {
-						    			f.delete();
-						    		} 
-						    		
-									UploadActivity.this.finish();
-						    		
+						    	ImageButton uploadButton = (ImageButton) findViewById(R.id.uploadButton);
+								uploadButton.setVisibility(View.VISIBLE);
+								
+						    	Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci髇 a Mapaton, revisa tu conexi髇 a internet.", Toast.LENGTH_SHORT).show();
+							}
+
+							@Override
+							public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+								// TODO Auto-generated method stub
+								try {
+
+						    		Toast.makeText(UploadActivity.this, "Data Mapat髇 cargada.", Toast.LENGTH_SHORT).show();
 						    	}
 						    	catch(Exception e) {		
 						    		
@@ -185,28 +197,13 @@ public class UploadActivity extends Activity {
 							    	ImageButton uploadButton = (ImageButton) findViewById(R.id.uploadButton);
 									uploadButton.setVisibility(View.VISIBLE);
 									
-						    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci贸n a TransitWand, revisa tu conexi贸n a internet.", Toast.LENGTH_SHORT).show();
+						    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci髇 a Mapaton, revisa tu conexi髇 a internet.", Toast.LENGTH_SHORT).show();
 						    	}
-						    }
-						    
-						    public void onFailure(Throwable error, String content) {
-						    	
-						    	Log.e("upload", "Upload failed: " + error + " " + content);
-						    
-						    	
-						    	ProgressBar progressSpinner = (ProgressBar) findViewById(R.id.progressBar);
-								progressSpinner.setVisibility(View.GONE);
-						    	
-						    	ImageButton uploadButton = (ImageButton) findViewById(R.id.uploadButton);
-								uploadButton.setVisibility(View.VISIBLE);
-								
-						    	Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci贸n a TransitWand, revisa tu conexi贸n a internet.", Toast.LENGTH_SHORT).show();
-						    }
+							}
 						});	
 						
-						
-						
 						sendImagetoMapaton();
+						
 						break;
 				
 					 default:
@@ -219,11 +216,9 @@ public class UploadActivity extends Activity {
 		   uploadButton.setOnClickListener(listener);
 	}
 		
-	public void sendImagetoMapaton() {
-    	
-		ArrayList<RouteCapture> routes = new ArrayList<RouteCapture>();
-		List<RouteStop> Liststops = new ArrayList<RouteStop>();
+	private void sendImagetoMapaton() {
 		
+		List<RouteStop> Liststops = new ArrayList<RouteStop>();
 		String paths = "";
 		String name  = "";
 		String description  = "";
@@ -231,16 +226,16 @@ public class UploadActivity extends Activity {
 		
 		final FilenameFilter fileNameFilter = RouteCapture.getFileNameFilterRoute();
 		
+		final int numberFiles = getFilesDir().listFiles(fileNameFilter).length;
+				
 		for(File f : getFilesDir().listFiles(fileNameFilter)) {
 			
+			final File fileToDelete = f;
 			DataInputStream dataInputStream = null;
 			
 			try {
-				dataInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(f)));
-			
-			//	byte[] dataFrame = new byte[(int)f.length()];;
 				
-			//	dataInputStream.read(dataFrame);
+				dataInputStream = new DataInputStream(new BufferedInputStream(new FileInputStream(f)));
 				
 				Upload.Route pbRouteData = Upload.Route.parseDelimitedFrom(dataInputStream);
 				
@@ -249,7 +244,8 @@ public class UploadActivity extends Activity {
 				name  = rc.name;
 				description  = rc.description;
 				Liststops = rc.stops;
-				imei = rc.imei;
+				//imei = rc.imei;
+				imei = CaptureService.imei;
 				
 				RequestParams params = new RequestParams();
 				
@@ -270,31 +266,46 @@ public class UploadActivity extends Activity {
 		    	params.put("description", description);
 		    	params.put("stopsAmount",index.toString());
 		    	params.put("imei", imei);
+		    	 params.setUseJsonStreamer(true);
+		    	
+		    	Header[] headers = new Header[1];
+		        headers[0] = (Header) new BasicHeader("Content-Type", "application/json");
 		    	
 				AsyncHttpClient client = new AsyncHttpClient();
-				client.setTimeout(240 * 1000);
-				client.setUserAgent("tw");
-				client.post("http://codeandoxalapa.org/manage_img/post-img.php", params,  new AsyncHttpResponseHandler() {
-				    
+				client.post(this, "https://mapaton.org/manage_img/post-img-route-stop-json.php", headers, params, 
+		        		RequestParams.APPLICATION_JSON, new AsyncHttpResponseHandler(){
+					
 					@Override
-				    public void onSuccess(String response) {
-				    	
-				    	try {
+					public void onFailure(int arg0, Header[] arg1, byte[] arg2, Throwable arg3) {
+						// TODO Auto-generated method stub
+						Toast.makeText(UploadActivity.this, "No fue posible subir la imagen al servidor.", Toast.LENGTH_SHORT).show();
+					}
+
+					@Override
+					public void onSuccess(int arg0, Header[] arg1, byte[] arg2) {
+						// TODO Auto-generated method stub
+						try {
 				    		
-				    		Toast.makeText(UploadActivity.this, "Data Mapaton cargada.", Toast.LENGTH_SHORT).show();
-							UploadActivity.this.finish();
-				    		
+				    		Toast.makeText(UploadActivity.this, "Data Mapat髇 cargada.", Toast.LENGTH_SHORT).show();
+				    		fileToDelete.delete();
+				    		count++;
+				    		if(count == numberFiles){
+				    			UploadActivity.this.finish();
+				    		}
 				    	}
 				    	catch(Exception e) {
-				    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci贸n de Mapat贸n, revisa tu conexi贸n a internet.", Toast.LENGTH_SHORT).show();
+				    		Toast.makeText(UploadActivity.this, "Deshabilitado para subir informaci髇 de Mapat髇, revisa tu conexi髇 a internet.", Toast.LENGTH_SHORT).show();
 				    	}
-				    }
+					}
 				});
 			
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} finally {

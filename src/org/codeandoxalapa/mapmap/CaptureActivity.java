@@ -141,7 +141,7 @@ public class CaptureActivity extends Activity implements ICaptureActivity {
 							};
 	
 							AlertDialog.Builder builder = new AlertDialog.Builder(CaptureActivity.this);
-							builder.setMessage("Â¿Quieres finalizar el mapeo de esta ruta?").setPositiveButton("Si", dialogClickListener)
+							builder.setMessage("¿Quieres finalizar el mapeo de esta ruta?").setPositiveButton("Si", dialogClickListener)
 							    .setNegativeButton("No", dialogClickListener).show();
 							
 						}

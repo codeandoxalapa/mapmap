@@ -37,7 +37,7 @@ var UploadMapView = Backbone.View.extend({
 
     
      // Base layer config is optional, default to Mapbox Streets
-      var url = 'http://{s}.tiles.mapbox.com/v3/conveyal.map-jc4m5i21/{z}/{x}/{y}.png';
+      var url = 'https://api.mapbox.com/styles/v1/mapbox/streets-v10/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmRyb3VhaWxsZXQiLCJhIjoicVpsbVBJMCJ9.h4fZCzXIRtKQpapfS9B9xg';
           baseLayer = L.tileLayer(url, {
             attribution: '&copy; OpenStreetMap contributors, CC-BY-SA. <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>' 
           });

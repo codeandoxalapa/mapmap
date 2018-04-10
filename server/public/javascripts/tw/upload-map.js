@@ -14,7 +14,7 @@ function sizeContent() {
 
 function loadPattern() {
 
-	$.get('/pattern', {patternId: $('#patternSelector').val()}, function(data){
+	$.get('/mapmap/pattern', {patternId: $('#patternSelector').val()}, function(data){
 
 		uploadMap.update(data);
 

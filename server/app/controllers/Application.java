@@ -269,7 +269,7 @@ public class Application extends Controller {
     			
     	pge.doJob();
     	
-    	redirect("/public/data/exports/" + timestamp + ".zip");
+    	redirect("/mapmap/public/data/exports/" + timestamp + ".zip");
     }
     
     public static void exportCsv(String unitId) throws IOException {
@@ -369,6 +369,6 @@ public class Application extends Controller {
    	 	DirectoryZip.zip(outputDirectory, outputZipFile);
    	 	FileUtils.deleteDirectory(outputDirectory); 
    	 	
-   	 	redirect("/public/data/exports/" + timestamp + ".zip");
+   	 	redirect("/mapmap/public/data/exports/" + timestamp + ".zip");
     }
 }

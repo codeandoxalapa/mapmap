@@ -1,21 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+	<link rel="shortcut icon" type="image/png" href="https://mapaton.org/rutas/libs/images/favicon.png">
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/leaflet.css" />
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label.css" />
+    <link rel="stylesheet" href="https://mapaton.org/server/public/bootstrap/boostrap.select2/select2.css" />
 
-    <link rel="stylesheet" href="@{'/public/javascripts/leaflet.css'}" />
-    <link rel="stylesheet" href="@{'/public/javascripts/lib/leaflet.label/leaflet.label.css'}" />
-    <link rel="stylesheet" href="@{'/public/bootstrap/boostrap.select2/select2.css'}" />
-
-    <link href="@{'/public/ui-lightness/jquery-ui-1.8.23.custom.css'}" rel="stylesheet">
-    <link href="@{'/public/bootstrap/css/bootstrap.css'}" rel="stylesheet">
-    <link href="@{'/public/bootstrap/css/bootstrap-datepicker.css'}" rel="stylesheet">
-    <link href="@{'/public/bootstrap/css/bootstrap-timepicker.css'}" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-timepicker.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://mapaton.org/libs/css/style.css">
     
     
    <style type="text/css">
       body {
         padding: 0px;
-        background-image:url('@{'/public/images/background.png'}');
+        background-image:url('https://mapaton.org/server/public/images/background.png');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		  background-repeat: no-repeat;
+		  background-position: top center;
       }
       
       #content 
@@ -31,13 +39,13 @@
     
     </style>
 
-    <link href="@{'/public/bootstrap/css/bootstrap-responsive.min.css'}" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     
-    <title>TransitWand</title>
+    <title>Mapatón Ciudadano | Servidor de datos</title>
 
     <script>
     
-        var defaultLatLon = [10.3181373, 123.8956844];
+        var defaultLatLon = [19.5421979, -96.9549486];
     
     </script>
 
@@ -46,17 +54,17 @@
 <body>
 
    
-   
-#{script "jquery.js"/}
-#{script "leaflet-src.js"/}
-#{script "handlebars.js"/}
-#{script "underscore-min.js"/}
-<script src="@{'/public/bootstrap/js/bootstrap.min.js'}"></script>
-<script src="@{'/public/bootstrap/js/bootstrap-datepicker.js'}"></script>
-#{script "backbone.js"/}
-
-#{script "lib/leaflet.label/leaflet.label-src.js"/}
-#{script "lib/moment.js"/}
+<script src="https://mapaton.org/server/public/javascripts/jquery.js"></script>   
+<script src="https://mapaton.org/server/public/javascripts/leaflet-src.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/handlebars.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/underscore-min.js"></script>
+<!-- -->
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap-datepicker.js"></script>
+	
+<script src="https://mapaton.org/server/public/javascripts/backbone.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label-src.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/lib/moment.js"></script>
 
 
     <div class="container-fluid" id="content">

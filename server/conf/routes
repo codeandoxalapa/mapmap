@@ -6,7 +6,7 @@
 GET     /                                       Application.index
 
 # Catch all
-*       /{action}                  				Application.{action}
+*      /{action}                  				Application.{action}
 
 
 # Ignore favicon requests

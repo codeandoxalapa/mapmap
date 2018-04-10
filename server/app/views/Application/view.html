@@ -1,0 +1,53 @@
+#{extends 'main-bar.html' /}
+
+
+<script id="stop-popup-tpl"  type="text/x-handlebars-template">
+
+<strong>Parada: {{stopSequence}}</strong><br/>
+Subidas: {{board}}<br/>
+Bajadas: {{alight}}<br/>
+Tiemo de recorrido: {{minutes}}:{{remainder}}
+</script>
+
+<script id="pattern-details-tpl"  type="text/x-handlebars-template">
+
+<strong>Descripción:</strong> {{routeDescription}}<br/>
+<strong>Notas:</strong> {{routeNotes}}<br/>
+
+</script>
+
+<style>.alertdrop.select2-container .select2-results {max-height: 300px;}</style>
+
+<div class="row-fluid" style="background-color: #fff;  position: relative;">
+
+	<div id="map">
+	</div>
+	
+	<div id="tripPatternFilter" style="position: absolute; top:10px; right:10px; width:300px;">
+		<div class="well well-small">
+			
+		<strong>Datos recolectados</strong> <!-- <a href="#" style="float: right;">Generate Report</a>  -->
+		
+		<p>Seleccina la ruta subida.</p>
+		
+		<hr style="margin: 5px 0;">
+		
+		<select id="patternSelector">
+			#{list items:patterns, as:'pattern' }
+				<option value="${pattern.id}">${pattern.headsign}</option>
+			#{/list}
+		</select>
+
+		<div style="margin: 10px;" id="patternDetails"></div>
+		<a class="btn" href="@{Application.exportCsv( p.unitId )}">Exportar CSV</a>
+		<a class="btn" href="@{Application.exportGis( p.unitId )}">Exportar Shapefile</a>
+
+	</div>
+	
+	</div>	
+
+</div>
+
+<script src="https://mapaton.org/server/public/javascripts/tw/upload-backbone.js"></script>	
+<script src="https://mapaton.org/server/public/javascripts/tw/upload-map.js"></script>
+

@@ -1,0 +1,35 @@
+#{extends 'main.html' /}
+
+
+<div class="container">
+	<div class="jumbotron" style="background: white;padding: 50px;width: 60%;margin:50px auto;">
+		<div class="row">
+			<div class="col-xs-3" style="float: left;display: inline-block;">
+				<a href="https://mapaton.org">
+					<img class="pull-left" src="https://mapaton.org/rutas/libs/images/logo.png" style="width: 182px;"/>
+				</a>
+			</div>
+			<div class="col-xs-9" style="float: left;display: inline-block;">
+				<div style="padding-left: 20px;" class="control-group #{if invalid}error#{/if}"> 
+						<form id="loginForm" action="@{Application.view}" method="GET">
+							<input class="app-input" name="unitId" type="text" placeholder="Seis dígitos del id generado en el dispositivo móvil."/>
+							#{if invalid}<span class="help-inline" style="margin-bottom: 10px;"">Ingresa un id de unidad válido..</span>#{/if}
+					  <br><button class="go-to">Ver datos</button>
+					 </form>		
+				</div>
+			</div>
+		</div>	
+		<div class="clearfix"></div><br>
+		<p>MapMap es una aplicación <a href="https://github.com/codeandoxalapa/mapmap/" target="_blank">open source</a>, web y móvil  que te permite mapear rutas que recorren los vehiculos del Transporte Público de una ciudad, con el objetivo de generar datos en formato GTFS.</p>
+		<p>Con está aplicación puedes crear trazos georeferenciados sin la necesidad de consumir datos del dispositivo móvil, podrás capturar datos como: paradas, pasajeros, tiempo de recorridos, pasajeros que abordan y bajan en una parada, entre otras. <a style="float: right;position: relative;display: block;top: 20px;" href="https://play.google.com/store/apps/details?id=org.codeandoxalapa.mapmap" target="_blank"><img src="https://mapaton.org/server/public/images/en_app_rgb_wo_45.png"/></a></p>
+
+	</div>
+</div>
+<script>
+
+$(document).ready(function() {
+  
+ });
+
+
+</script>

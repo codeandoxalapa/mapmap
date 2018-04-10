@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="shortcut icon" type="image/png" href="https://mapaton.org/rutas/libs/images/favicon.png">
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/leaflet.css" />
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label.css" />
+    <link rel="stylesheet" href="@{'/public/bootstrap/boostrap.select2/select2.css'}" />
+
+    <link href="https://mapaton.org/server/public/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-timepicker.css" rel="stylesheet">
+    
+    
+   <style type="text/css">
+      body {
+        padding: 0px;
+       
+
+      }
+      
+      #content 
+      {
+        padding: 0px;
+        margin-top: 40px;
+      }
+      
+      #map
+      {
+        width: 100%;
+      }
+    
+    </style>
+
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    
+    <title>Mapatón Ciudadano | Servidor de datos</title>
+
+    <script>
+
+        var defaultLatLon = [19.5421979, -96.9549486];
+
+        var unitId = ${p.unitId};
+    
+    </script>
+
+</head>
+
+<body>
+
+   <div class="navbar navbar-inverse navbar-fixed-top" id="header">
+      <div class="navbar-inner">
+      	<a class="brand" href="https://mapaton.org/mapmap"><img style="margin-left: 10px;width: 25px;" src="https://mapaton.org/server/public/images/wand_logo.png"/>&nbsp;&nbsp;Mapatón Ciudadano</a>
+        <div class="nav-collapse collapse">
+        
+        
+    
+	             <div class="btn-group pull-right"><a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+	              <i class="icon-user"></i>#{if p.userName}${p.userName}  (${p.unitId})#{/if}#{else}Unit ${p.unitId}#{/else}
+	               <span class="caret"></span>
+	            </a>
+	             
+		            <ul class="dropdown-menu">
+		              <li><a href="@{Application.index(false)}">Cambiar de usuario</a></li>
+	            	</ul>
+	            
+	             </div>
+           
+        </div>
+            
+          
+          
+          
+        </div>
+      </div>
+    </div>
+   
+   
+<script src="https://mapaton.org/server/public/javascripts/jquery.js"></script>   
+<script src="https://mapaton.org/server/public/javascripts/leaflet-src.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/handlebars.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/underscore-min.js"></script>
+<!-- -->
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap-datepicker.js"></script>
+	
+<script src="https://mapaton.org/server/public/javascripts/backbone.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label-src.js"></script>
+
+<script src="https://mapaton.org/server/public/javascripts/lib/Polyline.encoded.js"></script>	
+<script src="https://mapaton.org/server/public/javascripts/lib/moment.js"></script>
+
+
+
+
+    <div class="container-fluid" id="content">
+    
+        #{doLayout /}
+    
+    </div>
+
+
+</body>
+    
+</html>
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="shortcut icon" type="image/png" href="https://mapaton.org/rutas/libs/images/favicon.png">
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/leaflet.css" />
+    <link rel="stylesheet" href="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label.css" />
+    <link rel="stylesheet" href="https://mapaton.org/server/public/bootstrap/boostrap.select2/select2.css" />
+
+    <link href="https://mapaton.org/server/public/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-timepicker.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://mapaton.org/libs/css/style.css">
+    
+    
+   <style type="text/css">
+      body {
+        padding: 0px;
+        background-image:url('https://mapaton.org/server/public/images/background.png');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+		  background-repeat: no-repeat;
+		  background-position: top center;
+      }
+      
+      #content 
+      {
+        padding: 0px;
+        margin-top: 40px;
+      }
+      
+      #map
+      {
+        width: 100%;
+      }
+    
+    </style>
+
+    <link href="https://mapaton.org/server/public/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    
+    <title>Mapatón Ciudadano | Servidor de datos</title>
+
+    <script>
+    
+        var defaultLatLon = [19.5421979, -96.9549486];
+    
+    </script>
+
+</head>
+
+<body>
+
+   
+<script src="https://mapaton.org/server/public/javascripts/jquery.js"></script>   
+<script src="https://mapaton.org/server/public/javascripts/leaflet-src.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/handlebars.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/underscore-min.js"></script>
+<!-- -->
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://mapaton.org/server/public/bootstrap/js/bootstrap-datepicker.js"></script>
+	
+<script src="https://mapaton.org/server/public/javascripts/backbone.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/lib/leaflet.label/leaflet.label-src.js"></script>
+<script src="https://mapaton.org/server/public/javascripts/lib/moment.js"></script>
+
+
+    <div class="container-fluid" id="content">
+    
+        #{doLayout /}
+    
+    </div>
+
+
+</body>
+    
+</html>

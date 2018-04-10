@@ -120,19 +120,19 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
 <br><br>
 Escoger servidor de almacenamiento:<br>
-   * Servidor Público de Transitwand dentro de la web del Mapatón Ciudadano (http://mapaton.org:9000):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
-   * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
+   * Servidor Público dentro de la web del Mapatón Ciudadano (http://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
+   * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/codeandoxalapa/mapmap/tree/master/server">enlace</a>.
 
 
 ### Limpieza de datos
 ---
 Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
 #### Descargar datos
-Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura e ingresarlo:<br><br>
+Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura (https://mapaton.org/mapmap) e ingresarlo:<br><br>
 <img src="https://mapaton.org/libs/images/seis.png" with="300px" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-<img src="https://mapaton.org/libs/images/descarga.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/mapmap_server.png" with="100%" align="middle" title="Route" />
 #### Convertir ShapeFiles a GEOJSON
 Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
 Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).
@@ -181,7 +181,7 @@ Más información en este <a href="https://el-bid.github.io/software-life-cycle-
 ---
 Un ejemplo de los trazos y archivos que pueden ser realizados con <strong>MapMap</strong> son:<br><br>
 * Visor de rutas - https://mapaton.org/rutas/
-* Servidor para administrar archivos Shapefiles - http://mapaton.org:9000
+* Servidor para administrar rutas y generar archivos Shapefiles|CSV - http://mapaton.org/mapmap
 * Geojson - https://github.com/codeandoxalapa/mapmap/tree/master/data
 * Datos en <a href="https://www.mapillary.com/app/user/xalapa?lat=19.533702607228946&lng=-96.84397948833018&z=11.389325293212847&username%5B%5D=xalapa">Mapillary</a>
 <br><br>

@@ -32,8 +32,9 @@ La aplicación puede ser utilizada para realizar cualquier tipo de trazo/recorri
 2) Instalar Postgres en la versión indicada.
 3) Instalar PostGIS en la versión indicada.
 
-Al tener la instalación hasta eeste punto debemos conectarnos a postgres y crear una base de datos para poder colocar las extensiones requeridas.
-*** Se deberá contar con usuario y contraseña de postgres.
+Al tener la instalación hasta este punto debemos conectarnos a postgres y crear una base de datos para poder colocar las extensiones requeridas.
+> Se deberá contar con usuario y contraseña de postgres. 
+
 <pre><code>$ sudo -u postgres psql</code></pre>
 Crear una base de datos:
 <pre><code>$ CREATE DATABASE gisdb;</code></pre>
@@ -63,7 +64,7 @@ db.pass=postgres
 </code></pre>
 7) Una vez modificado los archivos correr el comando start dentro del proyecto para activar el servicio.
 <pre><code>$ play start</code></pre>
-*** Se podrá acceder al servidor desde la ip y/o url en el puerto 9000
+> Se podrá acceder al servidor desde la ip y/o url en el puerto 9000
 
 > Es muy importante tener activo un servidor NGINX o APACHE con un dominio.
 

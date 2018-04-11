@@ -2,7 +2,7 @@
 # MapMap
 ### Descripción
 ---
-Aplicación móvil que te permite <i>mapear</i> rutas que recorren los vehiculos del Transporte Público de una ciudad, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>. 
+Aplicación móvil que te permite <i>mapear</i> rutas que recorren los vehículos del Transporte Público de una ciudad, con el objetivo de generar datos en formato <a href="https://developers.google.com/transit/gtfs/" target="_blank">GTFS</a>. 
 
 <strong>MapMap</strong> permite crear trazos georeferenciados sin la necesidad de consumir datos del dispositivo móvil, la información que se recolecta a través de la aplicación es la siguiente:
 - Conteo de pasajeros (subida y bajada de usuarios en las paradas).

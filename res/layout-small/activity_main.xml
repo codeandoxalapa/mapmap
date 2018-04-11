@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:textColor="#EDF5E1"
+        android:textColor="#05386B"
         android:textSize="15sp" />
 
     <TextView
@@ -26,7 +26,7 @@
         android:layout_above="@+id/UnitIdText"
         android:layout_alignRight="@+id/UnitIdText"
         android:text=""
-        android:textColor="#EDF5E1" />
+        android:textColor="#05386B" />
 
     <ImageButton
         android:id="@+id/UploadButton"

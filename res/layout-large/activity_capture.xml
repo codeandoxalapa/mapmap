@@ -37,7 +37,7 @@
         android:layout_below="@+id/notesText"
         android:layout_marginTop="5dp"
         android:text="Distancia:"
-        android:textColor="#76847C"
+        android:textColor="#05386B"
         style="@style/text_title_review_sub" />
 
     <TextView
@@ -49,7 +49,7 @@
         android:layout_marginTop="20dp"
         android:gravity="right"
         android:text="Duración:"
-        android:textColor="#76847C"
+        android:textColor="#05386B"
         style="@style/text_title_review_sub" />
 
     <ImageView
@@ -68,7 +68,7 @@
         android:layout_alignBottom="@+id/uploadText"
         android:layout_toRightOf="@+id/uploadText"
         android:text="distanceText"
-        android:textColor="#76847C"
+        android:textColor="#5CDB95"
         style="@style/text_title_map" />
 
     <TextView
@@ -79,7 +79,7 @@
         android:layout_alignBottom="@+id/TextView5"
         android:layout_toRightOf="@+id/TextView5"
         android:text="StopsText"
-        android:textColor="#76847C"
+        android:textColor="#5CDB95"
         style="@style/text_title_map" />
 
     <Chronometer
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/distanceText"
         android:layout_alignTop="@+id/notesText"
-        android:textColor="#76847C"
+        android:textColor="#5CDB95"
         style="@style/text_title_map" />
 
     <TextView
@@ -169,7 +169,7 @@
         android:layout_alignLeft="@+id/notesText"
         android:layout_below="@+id/uploadText"
         android:text="Parada:"
-        android:textColor="#76847C" />
+        android:textColor="#05386B" />
 
     <TextView
         android:id="@+id/textView1"

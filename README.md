@@ -81,6 +81,8 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 > <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android: <a href="https://play.google.com/store/apps/details?id=codeandoxalapa.org.mapmap" target="_blank"><img src="https://mapaton.org/server/public/images/en_app_rgb_wo_45.png"></a>.
 
 Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.
+
+
 ### ¿Cómo se utiliza?
 ---
 El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
@@ -121,8 +123,12 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
 <br><br>
 Escoger servidor de almacenamiento:<br>
-   * Servidor Público dentro de la web del Mapatón Ciudadano (http://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
-   * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/codeandoxalapa/mapmap/tree/master/server">enlace</a>.
+
+1) Servidor Público dentro de la web del Mapatón Ciudadano (http://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
+
+<img src="https://mapaton.org/libs/images/principal.png" with="100%" align="middle" title="Route" />
+
+2) Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/codeandoxalapa/mapmap/tree/master/server">enlace</a>.
 
 
 ### Limpieza de datos
@@ -135,7 +141,7 @@ Lo único que se requiere es ingresar el código de seis dígitos que la aplicac
 <img src="https://mapaton.org/libs/images/home.jpg" with="300px" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-<img src="https://mapaton.org/libs/images/mapmap_server.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/interna.png" with="100%" align="middle" title="Route" />
 
 
 #### Convertir ShapeFiles a GEOJSON

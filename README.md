@@ -78,7 +78,8 @@ Teniendo los archivos descargados y listo el ambiente de desarrollo:<br>
 4) En el recuadro de diálogo <strong>Examinar</strong> para buscar carpeta, vaya a la ubicación donde guardo los archivos del proyecto descargados y selecciónelo.
 5) Pulse <strong>Finalizar</strong>.
 > Importar proyecto Android a IDE Eclipse, tutorial <a href="http://programmerguru.com/android-tutorial/how-to-import-android-project-in-eclipse/">aquí</a>. 
-> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android: <a href="https://play.google.com/store/apps/details?id=codeandoxalapa.org.mapmap" target="_blank"><img src="https://mapaton.org/server/public/images/en_app_rgb_wo_45.png"></a>.
+> <strong>MapMap</strong> se encuentra disponible para su descarga en la tienda oficial de aplicaciones para sistema operativo Android:<br> 
+<a href="https://play.google.com/store/apps/details?id=codeandoxalapa.org.mapmap" target="_blank"><img src="https://mapaton.org/server/public/images/en_app_rgb_wo_45.png"></a>.
 
 Una vez importado el proyecto podrá correr la aplicación desde un dispositivo virtual ó bien desde un dispositivo móvil con sistema Android.
 
@@ -91,7 +92,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Metodología
 ---
-<strong>MapMap</strong> fue utilizada en el ejercicio del Mapatón Ciudadano, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en <strong>cualquier ciudad que quiera implementarlo</strong>, se divide en 3 apartados:<br><br>
+<strong>MapMap</strong> fue utilizada en el ejercicio del <a href="https://mapaton.org" target="_blank">Mapatón Ciudadano</a>, esté mapeo colaborativo realizado en el ciudad de Xalapa dió como resultado una propuesta metodológica para realizar el trazado de rutas de transporte público en <strong>cualquier ciudad que quiera implementarlo</strong>, se divide en 3 apartados:<br><br>
 1. <strong>Previo al Trazado</strong><br>
  <code>1.1.</code> Tener identificado brigadistas (personas que harán el trazado).<br>
  <code>1.2.</code> Tener un primer acercamiento con checadores y choferes, desde los puntos más importantes que concentran rutas.<br>
@@ -120,7 +121,7 @@ El equipo de Codeando Xalapaa creó un manual de usuario que explica paso a paso
 
 ### Manejo de datos
 ---
-Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
+Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap, Google Maps, entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
 <br><br>
 Escoger servidor de almacenamiento:<br>
 
@@ -137,7 +138,7 @@ Una vez que los datos se encuentran concentrados en la infraestructura de almace
 
 
 #### Descargar datos
-Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura (https://mapaton.org/mapmap) e ingresarlo:<br><br>
+Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo y darle click al botón ENVIAR. Una vez enviado los datos, las rutas se pueden consultar desde la plataforma (https://mapaton.org/mapmap).<br><br>
 <img src="https://mapaton.org/libs/images/home.jpg" with="300px" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>

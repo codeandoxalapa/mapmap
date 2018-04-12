@@ -25,9 +25,9 @@ La aplicación puede ser utilizada para realizar cualquier tipo de trazo/recorri
 
 ### Instalación
 ---
-> El servidor ha sido probado e instalado en servidores con sistema operativo debian
+> El servidor ha sido probado e instalado en ambientes con sistema operativo: debian | ubunto | CentOS
 
-1) Instalar Java con la versión 1.6 como requerida (exportar la variable global o de entorno).
+1) Instalar Java con la versión 1.6 como requerida (se deberá exportar la variable global).
 <pre><code>$ export JAVA_HOME=$(readlink -f /opt/jdk/jdk1.7.0/bin/java | sed "s:bin/java::")</code></pre>
 2) Instalar Postgres en la versión indicada.
 3) Instalar PostGIS en la versión indicada.
@@ -51,7 +51,7 @@ Instalar extensiones:
 Salir de la conexión:
 <pre><code>$ \q</code></pre>
 
-4) Instalar Play framework en la versión indicada, al finalizar se deberá crear la variable global o de entorno.
+4) Instalar Play framework en la versión indicada (se deberá exportar la variable global).
 <pre><code>$ export PATH=$PATH:/etc/play/</code></pre>
 5) Colocar los archivos de esté proyecto en un directorio del servidor.
 6) Editar la conexión con el usuario y contraseña de postgres en archivo <strong>conf/application.conf</strong>.
@@ -74,27 +74,37 @@ Una vez importado el todo así es como se visualiza el servidor:<br>
 
 ### Manejo de datos
 ---
-Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap , Google Maps entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
+Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte público la información de la(s) ruta(s) se encuentra(n) dentro de la aplicación MapMap y por tal motivo no es posible utilizar esos datos en un formato estandarizado e interpretable por sistemas de geo referencia como QGIS, Open StreetMap, Google Maps, entre otros. Para poder disponer y manejar los datos es necesario contar con la infraestructura de almacenamiento así como de conversión de datos y realizar un proceso de limpieza a los datos almacenados.
 <br><br>
 Escoger servidor de almacenamiento:<br>
-   * Servidor Público dentro de la web del Mapatón Ciudadano (http://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
-   * Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/conveyal/transit-wand">enlace</a>.
+
+1) Servidor Público dentro de la web del Mapatón Ciudadano (https://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
+
+<img src="https://mapaton.org/libs/images/principal.png" with="100%" align="middle" title="Route" />
+
+2) Instalar tu propio servidor: Utilizando el código abierto de TransitWand puedes controlar y modificar el proceso de almacenamiento, visualización y conversión de datos sin depender de un servicio que a pesar de ser público y gratuito podría dejar de funcionar en cualquier momento. Ver como instalar tu propio servidor desde esté <a href="https://github.com/codeandoxalapa/mapmap/tree/master/server">enlace</a>.
 
 
 ### Limpieza de datos
 ---
 Una vez que los datos se encuentran concentrados en la infraestructura de almacenamiento es posible descargarlos en dos formatos (.shp, .csv) para su uso.
+
+
 #### Descargar datos
-Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo. Teniendo esté código se deberá entrar al servidor de la infraestructura (https://mapaton.org/mapmap) e ingresarlo:<br><br>
-<img src="https://mapaton.org/libs/images/seis.png" with="300px" align="middle" title="Route" />
+Lo único que se requiere es ingresar el código de seis dígitos que la aplicación proporciona para identificar el dispositivo que fue utilizado para realizar el mapeo y darle click al botón ENVIAR. Una vez enviado los datos, las rutas se pueden consultar desde la plataforma (https://mapaton.org/mapmap).<br><br>
+<img src="https://mapaton.org/libs/images/home.jpg" with="300px" align="middle" title="Route" />
 <br><br>
 Una vez que ingresaste tu código es posible descargar los datos, seleccionando la ruta que deseas descargar en el formato que tú indiques.<br><br>
-<img src="https://mapaton.org/libs/images/mapmap_server.png" with="100%" align="middle" title="Route" />
+<img src="https://mapaton.org/libs/images/interna.png" with="100%" align="middle" title="Route" />
+
+
 #### Convertir ShapeFiles a GEOJSON
 Al contar con la información descargada en formato Shapefile (.shp) es posible realizar un proceso de conversión a otros formatos como por ejemplo Geojson (http://geojson.org/) que nos permite utilizar y manipular los datos con lenguajes de programación como Javascript y realizar interfaces de consulta para visualizar las rutas. <br><br>
 Para realizar ese proceso adicional de conversión que se encuentra fuera de Transitwand se puede hacer uso de otras herramientas Open Source, como ejemplo tenemos el siguiente repositorio en donde se encuentran las rutas en formato Geojson (https://github.com/XalapaJS/xalapa_bus_data).
 Ejemplo de un geojson obtenido de <strong>MapMap</strong>:<br><br>
 <img src="https://mapaton.org/libs/images/example_geojson.png" with="100%" align="middle" title="Route" />
+
+
 #### Publicación en datos abiertos
 Una vez que se dispone de los datos en formato estandarizado y abierto se puede realizar una publicación de la información recolectada. En el caso de Mapatón Ciudadano las rutas de transporte público se publicaron en dos plataformas mexicanas para la publicación de datos abiertos, estas son:
   * http://datamx.io/dataset/rutas-de-transporte-publico-en-xalapa
@@ -109,6 +119,20 @@ El Ayuntamiento de la Ciudad de Xalapa realizó la publicación en https://datos
 ```
 De esa forma la información puede ser utilizada y compartida para futuros proyectos, investigaciones académicas, análisis y planeación de movilidad urbana, entre otros.
 > Existe una versión extendida del proceso de limpieza de datos la cual se puede ver en: <a href="https://mapaton.org">mapaton.org</a>. Actualmente no está publicada porque se encuentra en un proceso de rediseño, se espera tenerla pública próximamente.
+
+
+### Análisis de calidad
+---
+De acuerdo al sistema de evaluación de software definido en la guía de ciclo de vida de desarrollo de software, el análisis de esta herramienta ha generado la siguiente evaluación:
+
+Blocker issues: 4 (> 0) <strong>Low</strong> <br>
+Duplicated lines: 9.5% (< 15%) <strong>Hard</strong> <br>
+Critical issues: 49 (> 20) <strong>Standard</strong> <br>
+Technical debt: 5d (< 10d) <strong>Hard</strong> <br>
+Test coverage: 0% (< 10%) <strong>Low</strong> <br>
+
+<img src="https://mapaton.org/libs/images/sonar_result1.png" with="100%" align="right" title="Route" /><br>
+Más información en este <a href="https://el-bid.github.io/software-life-cycle-guide/delivery/evaluation-matrix/">enlace</a>.
 
 
 ### Autores:

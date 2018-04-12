@@ -124,7 +124,7 @@ Una vez que utilizaste MapMap para realizar el mapeo de una ruta de transporte p
 <br><br>
 Escoger servidor de almacenamiento:<br>
 
-1) Servidor Público dentro de la web del Mapatón Ciudadano (http://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
+1) Servidor Público dentro de la web del Mapatón Ciudadano (https://mapaton.org/mapmap):  Esté servidor permite almacenar y concentrar las rutas mapeadas para visualizarlas sobre un tile de Open Street Map (OSM) y conversión en formato Shapefile (.shp) y comma-separated values (.csv).
 
 <img src="https://mapaton.org/libs/images/principal.png" with="100%" align="middle" title="Route" />
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.codeandoxalapa.mapmap"
+    package="codeandoxalapa.org.mapmap"
     android:versionCode="1040"
     android:versionName="1.0.40" >
 
@@ -30,15 +30,15 @@
     
     
     
-   	<service android:name="org.codeandoxalapa.mapmap.CaptureService">
+   	<service android:name="codeandoxalapa.org.mapmap.CaptureService">
 	 <intent-filter>
-	  	 <action android:name="org.codeandoxalapa.mapmap.CaptureService"/>
+	  	 <action android:name="codeandoxalapa.org.mapmap.CaptureService"/>
 	 </intent-filter>
     </service>
         
         
     <activity
-        android:name="org.codeandoxalapa.mapmap.MainActivity" 
+        android:name="codeandoxalapa.org.mapmap.MainActivity" 
         android:screenOrientation="portrait" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -48,38 +48,38 @@
     </activity>
         
     <activity
-        android:name="org.codeandoxalapa.mapmap.RegisterActivity"
+        android:name="codeandoxalapa.org.mapmap.RegisterActivity"
         android:screenOrientation="portrait" >
     </activity>
     
     <activity
-        android:name="org.codeandoxalapa.mapmap.NewActivity"
+        android:name="codeandoxalapa.org.mapmap.NewActivity"
         android:screenOrientation="portrait" >
     </activity>
     
     <activity
-        android:name="org.codeandoxalapa.mapmap.ReviewActivity"
+        android:name="codeandoxalapa.org.mapmap.ReviewActivity"
         android:screenOrientation="portrait" >
     </activity>
     
     <activity
-        android:name="org.codeandoxalapa.mapmap.UploadActivity"
+        android:name="codeandoxalapa.org.mapmap.UploadActivity"
         android:screenOrientation="portrait" >
     </activity>
     
      <activity
-        android:name="org.codeandoxalapa.mapmap.MapActivity"
+        android:name="codeandoxalapa.org.mapmap.MapActivity"
         android:screenOrientation="portrait" >
     </activity>
     
     <activity
-        android:name="org.codeandoxalapa.mapmap.CaptureActivity"
+        android:name="codeandoxalapa.org.mapmap.CaptureActivity"
         android:launchMode="singleTop"
         android:screenOrientation="portrait" >
     </activity>
     
     <activity
-        android:name="org.codeandoxalapa.mapmap.EditActivity"
+        android:name="codeandoxalapa.org.mapmap.EditActivity"
         android:screenOrientation="portrait" >
     </activity>
         

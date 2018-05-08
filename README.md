@@ -87,7 +87,7 @@ Una vez importado el proyecto podrá correr la aplicación desde un dispositivo 
 ### ¿Cómo se utiliza?
 ---
 El equipo de Codeando Xalapa creó un manual de usuario que explica paso a paso cómo utilizar MapMap para realizar el mapeo de una ruta de Transporte Público, puedes descargar el manual en formato PDF
-[https://mapaton.org/mapaton-ciudadano-xalapa/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
+[https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf](https://mapaton.org/docs/Manual_de_Usuario_MapMap.pdf) 
 
 
 ### Metodología

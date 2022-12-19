@@ -41,6 +41,7 @@ public class ProcessGisExport extends Job {
     public void doJob() throws InterruptedException {
 
         File outputDirectory = new File(Play.configuration.getProperty("application.exportDataDirectory"), timestamp);
+        // El nombre del fichero incluye la palabra SHP para diferenciarlo de los exports de CSV
         File outputZipFile = new File(Play.configuration.getProperty("application.exportDataDirectory"), timestamp + "_SHP.zip");
 
         try {

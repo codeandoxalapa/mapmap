@@ -167,61 +167,48 @@ public class Application extends Controller {
     }
 
     public static void view(String unitId) {
-
         if (unitId == null) {
             index(true);
         }
-
         Phone p = Phone.find("unitId = ?", unitId).first();
         if (p == null) {
             index(true);
         }
-
-        List<TripPattern> patterns = TripPattern.find("route.phone = ?", p).fetch();
+        List<TripPattern> patterns = TripPattern.find("route.phone = ? ORDER BY id DESC", p).fetch();
         render(p, patterns);
     }
 
     public static void list(String unitId) {
-
         Http.Header hd = new Http.Header();
-
         hd.name = "Access-Control-Allow-Origin";
         hd.values = new ArrayList<String>();
         hd.values.add("*");
-
         Http.Response.current().headers.put("Access-Control-Allow-Origin", hd);
 
-        if (unitId == null) badRequest();
-
+        if (unitId == null) { // Si no viene el UnitID no podemos buscar el teléfono
+            badRequest();
+        }
         Phone p = Phone.find("unitId = ?", unitId).first();
-
-
-        if (p == null) badRequest();
-
-        List<TripPattern> patterns = TripPattern.find("route.phone = ?", p).fetch();
-
+        if (p == null) { // Si no existe el teléfono no podemos buscar las rutas asociadas al mismo
+            badRequest();
+        }
+        List<TripPattern> patterns = TripPattern.find("route.phone = ? ORDER BY id DESC", p).fetch();
         Gson gson = new GsonBuilder().registerTypeAdapter(TripPattern.class, new TripPatternSerializer()).serializeSpecialFloatingPointValues().serializeNulls().create();
-
         renderJSON(gson.toJson(patterns));
-
     }
 
     public static void pattern(Long patternId) {
-
+        if (patternId == null) {
+            badRequest();
+        }
         Http.Header hd = new Http.Header();
-
         hd.name = "Access-Control-Allow-Origin";
         hd.values = new ArrayList<String>();
         hd.values.add("*");
-
         Http.Response.current().headers.put("Access-Control-Allow-Origin", hd);
-
         TripPattern pattern = TripPattern.findById(patternId);
-
         Gson gson = new GsonBuilder().registerTypeAdapter(TripPattern.class, new TripPatternShapeSerializer()).serializeSpecialFloatingPointValues().serializeNulls().create();
-
         renderJSON(gson.toJson(pattern));
-
     }
 
     public static void exportGis(String unitId) throws InterruptedException {
@@ -270,6 +257,10 @@ public class Application extends Controller {
                 }
             }
         }
+
+        //ProcessGtfsSnapshotExport pge = new ProcessGtfsSnapshotExport(patterns);
+        // ProcessGtfsSnapshotExport pge = new ProcessGtfsSnapshotExport(ident, patterns, timestamp);
+        //pge.doJob();
         redirect("/mapmap/public/data/exports/" + timestamp + "_GTFS.zip");
     }
 
@@ -291,7 +282,6 @@ public class Application extends Controller {
         String timestamp = sdf.format(new Date());
 
         File outputDirectory = new File(Play.configuration.getProperty("application.exportDataDirectory"), timestamp);
-		// El nombre del fichero incluye la palabra CSV para diferenciarlo de los exports de Shapefiles
         File outputZipFile = new File(Play.configuration.getProperty("application.exportDataDirectory"), timestamp + "_CSV.zip");
 
         // write routes
@@ -367,10 +357,6 @@ public class Application extends Controller {
         redirect("/mapmap/public/data/exports/" + timestamp + "_CSV.zip");
     }
 
-	/**
-	 * Este método sirve para ver que ficheros ProtocolBuffer se han subido al directorio de uploads
-	 * @param unitId el identificador del teléfono
-	 */
     public static void pbx(String unitId) {
         if(unitId == null) {
             badRequest();
@@ -400,11 +386,10 @@ public class Application extends Controller {
         int dotIndex = pbFileName.indexOf('.');
         if (underscoreIndex != -1 && dotIndex != -1) {
             String secondPart = pbFileName.substring(underscoreIndex + 1, dotIndex);
-            Long miliseconds = Long.parseLong(secondPart);
+            long miliseconds = Long.parseLong(secondPart);
             Date fecha = new Date(miliseconds);
             DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            String fechaFormateada = formatter.format(fecha);
-            return fechaFormateada;
+            return formatter.format(fecha);
         }
         return "";
     }

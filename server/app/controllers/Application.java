@@ -78,15 +78,22 @@ public class Application extends Controller {
             Logger.info("UPLOAD >>>");
             Logger.info("----------------------------------------");
             if(imei == null) {
-                Logger.error("El IMEI es null.");
+                Logger.error("El Phone ID es null.");
                 badRequest();
             }
-            Logger.info("Teléfono IMEI: " + imei);
 
             Phone phone = Phone.find("imei = ?", imei).first();
             if (phone == null) {
                 Logger.error("No existe el teléfono con el IMEI " + imei);
-                badRequest();
+                phone = Phone.find("unitid = ?", imei).first();
+                if(phone == null) {
+                    Logger.error("No existe el teléfono con el UnitID " + imei);
+                    badRequest();
+                } else {
+                    Logger.info("Unit ID: " + imei);
+                }
+            } else {
+                Logger.info("IMEI: " + imei);
             }
             Logger.info("Unidad: " + phone.unitId + " - " + phone.userName);
 
@@ -154,7 +161,6 @@ public class Application extends Controller {
                     sequenceId++;
                 }
             }
-
             Logger.info("Rutas procesadas: " + upload.getRouteList().size());
             dataInputStream.close();
             ok();
@@ -185,14 +191,17 @@ public class Application extends Controller {
         hd.values.add("*");
         Http.Response.current().headers.put("Access-Control-Allow-Origin", hd);
 
-        if (unitId == null) { // Si no viene el UnitID no podemos buscar el teléfono
+        if (unitId == null) {
             badRequest();
         }
         Phone p = Phone.find("unitId = ?", unitId).first();
-        if (p == null) { // Si no existe el teléfono no podemos buscar las rutas asociadas al mismo
+        if (p == null) {
             badRequest();
         }
         List<TripPattern> patterns = TripPattern.find("route.phone = ? ORDER BY id DESC", p).fetch();
+        for(TripPattern tp : patterns) {
+            Logger.debug(tp.headsign);
+        }
         Gson gson = new GsonBuilder().registerTypeAdapter(TripPattern.class, new TripPatternSerializer()).serializeSpecialFloatingPointValues().serializeNulls().create();
         renderJSON(gson.toJson(patterns));
     }
@@ -362,7 +371,6 @@ public class Application extends Controller {
             badRequest();
         }
         Phone p = Phone.find("unitId = ?", unitId).first();
-
         String imei = p.imei;
 
         File uploadsDir = new File("public/data/uploads");

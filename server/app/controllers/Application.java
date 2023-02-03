@@ -311,14 +311,21 @@ public class Application extends Controller {
         FileWriter stopsCsv = new FileWriter(stopsFile);
         CSVWriter stopsCsvWriter = new CSVWriter(stopsCsv);
 
-        String[] routesHeader = "unit_id, route_id, route_name, route_description, field_notes, vehicle_type, vehicle_capacity, start_capture".split(",");
-
+        String[] routesHeader = "unit_id, route_id, route_name, route_description, field_notes, vehicle_type, vehicle_capacity, start_capture, end_capture, duration".split(",");
         String[] stopsHeader = "route_id, stop_sequence, lat, lon, travel_time, dwell_time, board, allright".split(",");
 
         rotuesCsvWriter.writeNext(routesHeader);
         stopsCsvWriter.writeNext(stopsHeader);
 
         for (Route r : routes) {
+
+            List<RoutePoint> routePoints = RoutePoint.find("route = ? order by sequence", r).fetch();
+            Integer duration = 0;
+            for (RoutePoint routePoint : routePoints) {
+                duration += routePoint.timeOffset;
+            }
+            Date endTime = r.captureTime != null ? new Date(r.captureTime.getTime() + (duration * 1000)) : null;
+            SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
 
             String[] routeData = new String[routesHeader.length];
             routeData[0] = r.phone.unitId;
@@ -328,7 +335,9 @@ public class Application extends Controller {
             routeData[4] = r.routeNotes;
             routeData[5] = r.vehicleType;
             routeData[6] = r.vehicleCapacity;
-            routeData[7] = (r.captureTime != null) ? r.captureTime.toGMTString() : "";
+            routeData[7] = (r.captureTime != null) ? sdf2.format(r.captureTime) : "";
+            routeData[8] = (endTime != null) ? sdf2.format(endTime) : "";
+            routeData[9] = duration.toString();
 
             rotuesCsvWriter.writeNext(routeData);
 

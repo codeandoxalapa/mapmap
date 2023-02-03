@@ -1,5 +1,6 @@
 package jobs;
 
+import models.transit.RoutePoint;
 import models.transit.TripPattern;
 import models.transit.TripPatternStop;
 import org.apache.commons.io.FileUtils;
@@ -23,10 +24,8 @@ import utils.DirectoryZip;
 
 import java.io.File;
 import java.io.Serializable;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class ProcessGisExport extends Job {
 
@@ -123,7 +122,7 @@ public class ProcessGisExport extends Job {
                 Date arrivalTimestamp = new Date(routeStartTime.getTime() + (cumulativeTime * 1000));
                 featureBuilder.add(arrivalTimestamp.toGMTString());
 
-                if (tripPatternStop.defaultDwellTime != null){
+                if (tripPatternStop.defaultDwellTime != null) {
                     cumulativeTime += tripPatternStop.defaultDwellTime;
                 }
                 featureBuilder.add(cumulativeTime);
@@ -181,7 +180,9 @@ public class ProcessGisExport extends Job {
                         "NAME:String," +
                         "DESC:String," +
                         "NOTES:String," +
-                        "START:String"
+                        "START:String," +
+                        "END:String," +
+                        "DURATION:Integer"
         );
 
         SimpleFeatureCollection collection = FeatureCollections.newCollection();
@@ -190,18 +191,30 @@ public class ProcessGisExport extends Job {
         featureBuilder = new SimpleFeatureBuilder(ROUTE_TYPE);
 
         for (Long patternId : this.patternIds) {
-            TripPattern tp = TripPattern.findById(patternId);
-            if (tp.shape == null) {
+            TripPattern tripPattern = TripPattern.findById(patternId);
+            if (tripPattern.shape == null) {
                 return;
             }
-            featureBuilder.add(tp.shape.shape);
-            featureBuilder.add(tp.route.id.toString());
-            featureBuilder.add(tp.route.phone.unitId);
-            featureBuilder.add(tp.route.phone.userName != null ? tp.route.phone.userName.toUpperCase() : "");
-            featureBuilder.add(tp.route.routeLongName != null ? tp.route.routeLongName.toUpperCase() : "");
-            featureBuilder.add(tp.route.routeDesc != null ? tp.route.routeDesc.toUpperCase() : "");
-            featureBuilder.add(tp.route.routeNotes != null ? tp.route.routeNotes.toUpperCase() : "");
-            featureBuilder.add(tp.route.captureTime != null ? tp.route.captureTime.toGMTString() : "");
+
+            List<RoutePoint> routePoints = RoutePoint.find("route = ? order by sequence", tripPattern.route).fetch();
+            Integer duration = 0;
+            for (RoutePoint routePoint : routePoints) {
+                duration += routePoint.timeOffset;
+            }
+            Date endTime = tripPattern.route.captureTime != null ? new Date(tripPattern.route.captureTime.getTime() + (duration * 1000)) : null;
+
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
+
+            featureBuilder.add(tripPattern.shape.shape);
+            featureBuilder.add(tripPattern.route.id.toString());
+            featureBuilder.add(tripPattern.route.phone.unitId);
+            featureBuilder.add(tripPattern.route.phone.userName != null ? tripPattern.route.phone.userName.toUpperCase() : "");
+            featureBuilder.add(tripPattern.route.routeLongName != null ? tripPattern.route.routeLongName.toUpperCase() : "");
+            featureBuilder.add(tripPattern.route.routeDesc != null ? tripPattern.route.routeDesc.toUpperCase() : "");
+            featureBuilder.add(tripPattern.route.routeNotes != null ? tripPattern.route.routeNotes.toUpperCase() : "");
+            featureBuilder.add(tripPattern.route.captureTime != null ? sdf.format(tripPattern.route.captureTime) : "");
+            featureBuilder.add(endTime != null ? sdf.format(endTime) : "");
+            featureBuilder.add(duration);
             SimpleFeature feature = featureBuilder.buildFeature(null);
             collection.add(feature);
         }
